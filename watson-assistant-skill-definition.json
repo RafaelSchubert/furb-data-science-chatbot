@@ -1,0 +1,4359 @@
+{
+  "intents": [
+    {
+      "intent": "agendar-test-drive",
+      "examples": [
+        {
+          "text": "Gostaria de agendar um test drive"
+        },
+        {
+          "text": "Gostaria de agendar um test-drive"
+        },
+        {
+          "text": "Gostaria de agendar um testdrive"
+        },
+        {
+          "text": "Gostaria de agendar um teste"
+        },
+        {
+          "text": "Gostaria de fazer um test drive"
+        },
+        {
+          "text": "Gostaria de fazer um test-drive"
+        },
+        {
+          "text": "Gostaria de fazer um testdrive"
+        },
+        {
+          "text": "Gostaria de fazer um teste"
+        },
+        {
+          "text": "Gostaria de marcar um test drive"
+        },
+        {
+          "text": "Gostaria de marcar um test-drive"
+        },
+        {
+          "text": "Gostaria de marcar um testdrive"
+        },
+        {
+          "text": "Gostaria de marcar um teste"
+        },
+        {
+          "text": "Gostaria de realizar um test drive"
+        },
+        {
+          "text": "Gostaria de realizar um test-drive"
+        },
+        {
+          "text": "Gostaria de realizar um testdrive"
+        },
+        {
+          "text": "Gostaria de realizar um teste"
+        },
+        {
+          "text": "Quero agendar um test drive"
+        },
+        {
+          "text": "Quero agendar um test-drive"
+        },
+        {
+          "text": "Quero agendar um testdrive"
+        },
+        {
+          "text": "Quero agendar um teste"
+        },
+        {
+          "text": "Quero fazer um test drive"
+        },
+        {
+          "text": "Quero fazer um test-drive"
+        },
+        {
+          "text": "Quero fazer um testdrive"
+        },
+        {
+          "text": "Quero fazer um teste"
+        },
+        {
+          "text": "Quero marcar um test drive"
+        },
+        {
+          "text": "Quero marcar um test-drive"
+        },
+        {
+          "text": "Quero marcar um testdrive"
+        },
+        {
+          "text": "Quero marcar um teste"
+        },
+        {
+          "text": "Quero realizar um test drive"
+        },
+        {
+          "text": "Quero realizar um test-drive"
+        },
+        {
+          "text": "Quero realizar um testdrive"
+        },
+        {
+          "text": "Quero realizar um teste"
+        },
+        {
+          "text": "Tenho interesse em agendar um test drive"
+        },
+        {
+          "text": "Tenho interesse em agendar um test-drive"
+        },
+        {
+          "text": "Tenho interesse em agendar um testdrive"
+        },
+        {
+          "text": "Tenho interesse em agendar um teste"
+        },
+        {
+          "text": "Tenho interesse em fazer um test drive"
+        },
+        {
+          "text": "Tenho interesse em fazer um test-drive"
+        },
+        {
+          "text": "Tenho interesse em fazer um testdrive"
+        },
+        {
+          "text": "Tenho interesse em fazer um teste"
+        },
+        {
+          "text": "Tenho interesse em marcar um test drive"
+        },
+        {
+          "text": "Tenho interesse em marcar um test-drive"
+        },
+        {
+          "text": "Tenho interesse em marcar um testdrive"
+        },
+        {
+          "text": "Tenho interesse em marcar um teste"
+        },
+        {
+          "text": "Tenho interesse em realizar um test drive"
+        },
+        {
+          "text": "Tenho interesse em realizar um test-drive"
+        },
+        {
+          "text": "Tenho interesse em realizar um testdrive"
+        },
+        {
+          "text": "Tenho interesse em realizar um teste"
+        }
+      ],
+      "description": "Usuário informa intenção de agendar um test-drive na concessionária."
+    },
+    {
+      "intent": "avaliar-por-capacidade-passageiros",
+      "examples": [
+        {
+          "text": "Capacidade de passageiros"
+        },
+        {
+          "text": "Capacidade de pessoas"
+        },
+        {
+          "text": "Número de passageiros"
+        },
+        {
+          "text": "Número de pessoas"
+        },
+        {
+          "text": "Qual é a capacidade de gente do carro"
+        },
+        {
+          "text": "Qual é a capacidade de gente do modelo"
+        },
+        {
+          "text": "Qual é a capacidade de gente do veículo"
+        },
+        {
+          "text": "Qual é a capacidade de passageiros do carro"
+        },
+        {
+          "text": "Qual é a capacidade de passageiros do modelo"
+        },
+        {
+          "text": "Qual é a capacidade de passageiros do veículo"
+        },
+        {
+          "text": "Qual é a capacidade de pessoas do carro"
+        },
+        {
+          "text": "Qual é a capacidade de pessoas do modelo"
+        },
+        {
+          "text": "Qual é a capacidade de pessoas do veículo"
+        },
+        {
+          "text": "Quanta gente o carro carrega"
+        },
+        {
+          "text": "Quanta gente o carro leva"
+        },
+        {
+          "text": "Quanta gente o carro transporta"
+        },
+        {
+          "text": "Quanta gente o modelo carrega"
+        },
+        {
+          "text": "Quanta gente o modelo leva"
+        },
+        {
+          "text": "Quanta gente o modelo transporta"
+        },
+        {
+          "text": "Quanta gente o veículo carrega"
+        },
+        {
+          "text": "Quanta gente o veículo leva"
+        },
+        {
+          "text": "Quanta gente o veículo transporta"
+        },
+        {
+          "text": "Quantas pessoas o carro carrega"
+        },
+        {
+          "text": "Quantas pessoas o carro leva"
+        },
+        {
+          "text": "Quantas pessoas o carro transporta"
+        },
+        {
+          "text": "Quantas pessoas o modelo carrega"
+        },
+        {
+          "text": "Quantas pessoas o modelo leva"
+        },
+        {
+          "text": "Quantas pessoas o modelo transporta"
+        },
+        {
+          "text": "Quantas pessoas o veículo carrega"
+        },
+        {
+          "text": "Quantas pessoas o veículo leva"
+        },
+        {
+          "text": "Quantas pessoas o veículo transporta"
+        },
+        {
+          "text": "Quantos passageiros o carro carrega"
+        },
+        {
+          "text": "Quantos passageiros o carro leva"
+        },
+        {
+          "text": "Quantos passageiros o carro transporta"
+        },
+        {
+          "text": "Quantos passageiros o modelo carrega"
+        },
+        {
+          "text": "Quantos passageiros o modelo leva"
+        },
+        {
+          "text": "Quantos passageiros o modelo transporta"
+        },
+        {
+          "text": "Quantos passageiros o veículo carrega"
+        },
+        {
+          "text": "Quantos passageiros o veículo leva"
+        },
+        {
+          "text": "Quantos passageiros o veículo transporta"
+        }
+      ],
+      "description": "O usuário deseja escolher um modelo de acordo com a finalidade."
+    },
+    {
+      "intent": "avaliar-por-categoria",
+      "examples": [
+        {
+          "text": "A categoria do carro"
+        },
+        {
+          "text": "A categoria do modelo"
+        },
+        {
+          "text": "A categoria do veículo"
+        },
+        {
+          "text": "Escolher carro pela categoria"
+        },
+        {
+          "text": "Escolher carro pelo tipo"
+        },
+        {
+          "text": "Escolher modelo pela categoria"
+        },
+        {
+          "text": "Escolher modelo pelo tipo"
+        },
+        {
+          "text": "Escolher veículo pela categoria"
+        },
+        {
+          "text": "Escolher veículo pelo tipo"
+        },
+        {
+          "text": "O tipo do carro"
+        },
+        {
+          "text": "O tipo do modelo"
+        },
+        {
+          "text": "O tipo do veículo"
+        },
+        {
+          "text": "Selecionar carro pela categoria"
+        },
+        {
+          "text": "Selecionar carro pelo tipo"
+        },
+        {
+          "text": "Selecionar modelo pela categoria"
+        },
+        {
+          "text": "Selecionar modelo pelo tipo"
+        },
+        {
+          "text": "Selecionar veículo pela categoria"
+        },
+        {
+          "text": "Selecionar veículo pelo tipo"
+        }
+      ],
+      "description": "O usuário deseja escolher um modelo de acordo com a categoria."
+    },
+    {
+      "intent": "avaliar-por-finalidade",
+      "examples": [
+        {
+          "text": "Aplicação"
+        },
+        {
+          "text": "Aplicação diária"
+        },
+        {
+          "text": "Aplicação do carro"
+        },
+        {
+          "text": "Aplicação do veículo"
+        },
+        {
+          "text": "Aplicação no dia a dia"
+        },
+        {
+          "text": "Aplicação no dia-a-dia"
+        },
+        {
+          "text": "Avaliar o carro pela aplicação"
+        },
+        {
+          "text": "Avaliar o carro pela finalidade"
+        },
+        {
+          "text": "Avaliar o carro pelo uso"
+        },
+        {
+          "text": "Avaliar o modelo pela aplicação"
+        },
+        {
+          "text": "Avaliar o modelo pela finalidade"
+        },
+        {
+          "text": "Avaliar o modelo pelo uso"
+        },
+        {
+          "text": "Avaliar o veículo pela aplicação"
+        },
+        {
+          "text": "Avaliar o veículo pela finalidade"
+        },
+        {
+          "text": "Avaliar o veículo pelo uso"
+        },
+        {
+          "text": "Escolher o carro pela aplicação"
+        },
+        {
+          "text": "Escolher o carro pela finalidade"
+        },
+        {
+          "text": "Escolher o carro pelo uso"
+        },
+        {
+          "text": "Escolher o modelo pela aplicação"
+        },
+        {
+          "text": "Escolher o modelo pela finalidade"
+        },
+        {
+          "text": "Escolher o modelo pelo uso"
+        },
+        {
+          "text": "Escolher o veículo pela aplicação"
+        },
+        {
+          "text": "Escolher o veículo pela finalidade"
+        },
+        {
+          "text": "Escolher o veículo pelo uso"
+        },
+        {
+          "text": "Finalidade"
+        },
+        {
+          "text": "Finalidade diária"
+        },
+        {
+          "text": "Finalidade do carro"
+        },
+        {
+          "text": "Finalidade do veículo"
+        },
+        {
+          "text": "Finalidade no dia a dia"
+        },
+        {
+          "text": "Finalidade no dia-a-dia"
+        },
+        {
+          "text": "O uso que darei ao carro"
+        },
+        {
+          "text": "O uso que darei ao veículo"
+        },
+        {
+          "text": "O uso que vou dar ao carro"
+        },
+        {
+          "text": "O uso que vou dar ao veículo"
+        },
+        {
+          "text": "O uso que vou fazer diariamente"
+        },
+        {
+          "text": "O uso que vou fazer no meu dia a dia"
+        },
+        {
+          "text": "O uso que vou fazer no meu dia-a-dia"
+        },
+        {
+          "text": "Para que vou usá-lo"
+        },
+        {
+          "text": "Para que vou usar o carro"
+        },
+        {
+          "text": "Para que vou usar o veículo"
+        },
+        {
+          "text": "Selecionar o carro pela aplicação"
+        },
+        {
+          "text": "Selecionar o carro pela finalidade"
+        },
+        {
+          "text": "Selecionar o carro pelo uso"
+        },
+        {
+          "text": "Selecionar o modelo pela aplicação"
+        },
+        {
+          "text": "Selecionar o modelo pela finalidade"
+        },
+        {
+          "text": "Selecionar o modelo pelo uso"
+        },
+        {
+          "text": "Selecionar o veículo pela aplicação"
+        },
+        {
+          "text": "Selecionar o veículo pela finalidade"
+        },
+        {
+          "text": "Selecionar o veículo pelo uso"
+        },
+        {
+          "text": "Uso"
+        },
+        {
+          "text": "Uso diário"
+        },
+        {
+          "text": "Uso do carro"
+        },
+        {
+          "text": "Uso do veículo"
+        },
+        {
+          "text": "Uso no dia a dia"
+        },
+        {
+          "text": "Uso no dia-a-dia"
+        }
+      ],
+      "description": "O usuário deseja escolher um modelo de acordo com a finalidade."
+    },
+    {
+      "intent": "capacidade-passageiros-casal",
+      "examples": [
+        {
+          "text": "A esposa"
+        },
+        {
+          "text": "A namorada"
+        },
+        {
+          "text": "A noiva"
+        },
+        {
+          "text": "A patroa"
+        },
+        {
+          "text": "Estou namorando"
+        },
+        {
+          "text": "Estou noiva"
+        },
+        {
+          "text": "Estou noivo"
+        },
+        {
+          "text": "Meu companheiro"
+        },
+        {
+          "text": "Meu maridão"
+        },
+        {
+          "text": "Meu marido"
+        },
+        {
+          "text": "Meu namorado"
+        },
+        {
+          "text": "Meu noivo"
+        },
+        {
+          "text": "Minha companheira"
+        },
+        {
+          "text": "Minha esposa"
+        },
+        {
+          "text": "Minha namorada"
+        },
+        {
+          "text": "Minha noiva"
+        },
+        {
+          "text": "Minha patroa"
+        },
+        {
+          "text": "O maridão"
+        },
+        {
+          "text": "O marido"
+        },
+        {
+          "text": "O namorado"
+        },
+        {
+          "text": "O noivo"
+        },
+        {
+          "text": "Somos um casal"
+        },
+        {
+          "text": "Sou casada"
+        },
+        {
+          "text": "Sou casado"
+        },
+        {
+          "text": "Sou noiva"
+        },
+        {
+          "text": "Sou noivada"
+        },
+        {
+          "text": "Sou noivado"
+        },
+        {
+          "text": "Sou noivo"
+        },
+        {
+          "text": "Tenho uma esposa"
+        },
+        {
+          "text": "Tenho um marido"
+        },
+        {
+          "text": "Uma companheira"
+        },
+        {
+          "text": "Um companheiro"
+        }
+      ],
+      "description": "Usuário informa que pretende levar um passageiro"
+    },
+    {
+      "intent": "capacidade-passageiros-familia",
+      "examples": [
+        {
+          "text": "As crianças"
+        },
+        {
+          "text": "Meu filhos"
+        },
+        {
+          "text": "Meu maridão e as crianças"
+        },
+        {
+          "text": "Meu maridão e as filhas"
+        },
+        {
+          "text": "Meu maridão e os filhos"
+        },
+        {
+          "text": "Meu marido e as crianças"
+        },
+        {
+          "text": "Meu marido e as filhas"
+        },
+        {
+          "text": "Meu marido e os filhos"
+        },
+        {
+          "text": "Minha esposa e as crianças"
+        },
+        {
+          "text": "Minha esposa e as filhas"
+        },
+        {
+          "text": "Minha esposa e os filhos"
+        },
+        {
+          "text": "Minha família"
+        },
+        {
+          "text": "Minha mulher e as crianças"
+        },
+        {
+          "text": "Minha mulher e as filhas"
+        },
+        {
+          "text": "Minha mulher e os filhos"
+        },
+        {
+          "text": "Minha patroa e as crianças"
+        },
+        {
+          "text": "Minha patroa e as filhas"
+        },
+        {
+          "text": "Minha patroa e os filhos"
+        },
+        {
+          "text": "Minhas crianças"
+        },
+        {
+          "text": "Minhas filhas"
+        }
+      ],
+      "description": "O usuário informa que pretende levar a família."
+    },
+    {
+      "intent": "capacidade-passageiros-familia-grande",
+      "examples": [
+        {
+          "text": "A parentada toda"
+        },
+        {
+          "text": "Família bem grande"
+        },
+        {
+          "text": "Família enorme"
+        },
+        {
+          "text": "Família grande"
+        },
+        {
+          "text": "Muita gente"
+        },
+        {
+          "text": "Muitos parentes"
+        },
+        {
+          "text": "Todos os parentes"
+        },
+        {
+          "text": "Um monte de gente"
+        },
+        {
+          "text": "Um monte de parentes"
+        }
+      ],
+      "description": "O usuário informa que pretende levar uma família grande (5+ pessoas)."
+    },
+    {
+      "intent": "capacidade-passageiros-solteiro",
+      "examples": [
+        {
+          "text": "Não pretendo levar ninguém"
+        },
+        {
+          "text": "Não vai ter caronas"
+        },
+        {
+          "text": "Não vai ter passageiros"
+        },
+        {
+          "text": "Não vou levar ninguém"
+        },
+        {
+          "text": "Ninguém comigo"
+        },
+        {
+          "text": "Sem carona"
+        },
+        {
+          "text": "Sem caronas"
+        },
+        {
+          "text": "Sem passageiros"
+        },
+        {
+          "text": "Só eu"
+        },
+        {
+          "text": "Solitário"
+        },
+        {
+          "text": "Sozinho"
+        },
+        {
+          "text": "Vai ser só eu"
+        },
+        {
+          "text": "Vai só eu"
+        },
+        {
+          "text": "Vou sozinho"
+        }
+      ],
+      "description": "Usuário informa que pretende usar o carro sozinho."
+    },
+    {
+      "intent": "comprar-veiculo",
+      "examples": [
+        {
+          "text": "Adquirir um carro"
+        },
+        {
+          "text": "Adquirir um modelo"
+        },
+        {
+          "text": "Adquirir um veículo"
+        },
+        {
+          "text": "Comprar um carro"
+        },
+        {
+          "text": "Comprar um modelo"
+        },
+        {
+          "text": "Comprar um veículo"
+        },
+        {
+          "text": "Encomendar um carro"
+        },
+        {
+          "text": "Encomendar um modelo"
+        },
+        {
+          "text": "Encomendar um veículo"
+        },
+        {
+          "text": "Gostaria de adquirir"
+        },
+        {
+          "text": "Gostaria de adquirir um carro"
+        },
+        {
+          "text": "Gostaria de adquirir um modelo"
+        },
+        {
+          "text": "Gostaria de adquirir um veículo"
+        },
+        {
+          "text": "Gostaria de comprar"
+        },
+        {
+          "text": "Gostaria de comprar um carro"
+        },
+        {
+          "text": "Gostaria de comprar um modelo"
+        },
+        {
+          "text": "Gostaria de comprar um veículo"
+        },
+        {
+          "text": "Gostaria de encomendar"
+        },
+        {
+          "text": "Gostaria de encomendar um carro"
+        },
+        {
+          "text": "Gostaria de encomendar um modelo"
+        },
+        {
+          "text": "Gostaria de encomendar um veículo"
+        },
+        {
+          "text": "Gostaria de fazer uma aquisição"
+        },
+        {
+          "text": "Gostaria de fazer uma compra"
+        },
+        {
+          "text": "Gostaria de fazer uma encomenda"
+        },
+        {
+          "text": "Quero adquirir"
+        },
+        {
+          "text": "Quero adquirir um carro"
+        },
+        {
+          "text": "Quero adquirir um modelo"
+        },
+        {
+          "text": "Quero adquirir um veículo"
+        },
+        {
+          "text": "Quero comprar"
+        },
+        {
+          "text": "Quero comprar um carro"
+        },
+        {
+          "text": "Quero comprar um modelo"
+        },
+        {
+          "text": "Quero comprar um veículo"
+        },
+        {
+          "text": "Quero encomendar"
+        },
+        {
+          "text": "Quero encomendar um carro"
+        },
+        {
+          "text": "Quero encomendar um modelo"
+        },
+        {
+          "text": "Quero encomendar um veículo"
+        },
+        {
+          "text": "Quero fazer uma aquisição"
+        },
+        {
+          "text": "Quero fazer uma compra"
+        },
+        {
+          "text": "Quero fazer uma encomenda"
+        },
+        {
+          "text": "Tenho interesse em adquirir"
+        },
+        {
+          "text": "Tenho interesse em adquirir um carro"
+        },
+        {
+          "text": "Tenho interesse em adquirir um modelo"
+        },
+        {
+          "text": "Tenho interesse em adquirir um veículo"
+        },
+        {
+          "text": "Tenho interesse em comprar"
+        },
+        {
+          "text": "Tenho interesse em comprar um carro"
+        },
+        {
+          "text": "Tenho interesse em comprar um modelo"
+        },
+        {
+          "text": "Tenho interesse em comprar um veículo"
+        },
+        {
+          "text": "Tenho interesse em encomendar"
+        },
+        {
+          "text": "Tenho interesse em encomendar um carro"
+        },
+        {
+          "text": "Tenho interesse em encomendar um modelo"
+        },
+        {
+          "text": "Tenho interesse em encomendar um veículo"
+        },
+        {
+          "text": "Tenho interesse em fazer uma aquisição"
+        },
+        {
+          "text": "Tenho interesse em fazer uma compra"
+        },
+        {
+          "text": "Tenho interesse em fazer uma encomenda"
+        }
+      ],
+      "description": "O usuário solicita a compra de um veículo."
+    },
+    {
+      "intent": "confirmacao",
+      "examples": [
+        {
+          "text": "Beleza"
+        },
+        {
+          "text": "Bem isso aí"
+        },
+        {
+          "text": "Claro"
+        },
+        {
+          "text": "Confirmado"
+        },
+        {
+          "text": "Correto"
+        },
+        {
+          "text": "Entendido"
+        },
+        {
+          "text": "Exatamente"
+        },
+        {
+          "text": "Gostaria"
+        },
+        {
+          "text": "Isso mesmo"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "Pode ser"
+        },
+        {
+          "text": "Positivo"
+        },
+        {
+          "text": "Sim"
+        },
+        {
+          "text": "Sim, muito obrigado"
+        },
+        {
+          "text": "Sim, obrigado"
+        },
+        {
+          "text": "Sim, por favor"
+        },
+        {
+          "text": "Tudo bem"
+        },
+        {
+          "text": "Yep"
+        }
+      ],
+      "description": "Confirmação do usuário."
+    },
+    {
+      "intent": "declinacao",
+      "examples": [
+        {
+          "text": "Claro que não"
+        },
+        {
+          "text": "Discordo"
+        },
+        {
+          "text": "Errado"
+        },
+        {
+          "text": "Inaceitável"
+        },
+        {
+          "text": "Incorreto"
+        },
+        {
+          "text": "Jamais"
+        },
+        {
+          "text": "Mas nem"
+        },
+        {
+          "text": "Nada disso"
+        },
+        {
+          "text": "Não"
+        },
+        {
+          "text": "Não aceito"
+        },
+        {
+          "text": "Não concordo"
+        },
+        {
+          "text": "Não gostaria"
+        },
+        {
+          "text": "Não, muito obrigado"
+        },
+        {
+          "text": "Não, obrigado"
+        },
+        {
+          "text": "Negativo"
+        },
+        {
+          "text": "Nem pensar"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "Nunca"
+        }
+      ],
+      "description": "Declinação do usuário."
+    },
+    {
+      "intent": "recomendar-modelo",
+      "examples": [
+        {
+          "text": "Escolha de carro"
+        },
+        {
+          "text": "Escolha de modelo"
+        },
+        {
+          "text": "Escolha de veículo"
+        },
+        {
+          "text": "Escolher carro"
+        },
+        {
+          "text": "Escolher modelo"
+        },
+        {
+          "text": "Escolher veículo"
+        },
+        {
+          "text": "Eu quero escolher um carro"
+        },
+        {
+          "text": "Eu quero escolher um modelo"
+        },
+        {
+          "text": "Eu quero escolher um veículo"
+        },
+        {
+          "text": "Me ajude a escolher um carro"
+        },
+        {
+          "text": "Me ajude a escolher um modelo"
+        },
+        {
+          "text": "Me ajude a escolher um veículo"
+        },
+        {
+          "text": "Preciso de ajuda para escolher um carro"
+        },
+        {
+          "text": "Preciso de ajuda para escolher um modelo"
+        },
+        {
+          "text": "Preciso de ajuda para escolher um veículo"
+        },
+        {
+          "text": "Preciso que me recomende um carro"
+        },
+        {
+          "text": "Preciso que me recomende um modelo"
+        },
+        {
+          "text": "Preciso que me recomende um veículo"
+        },
+        {
+          "text": "Quero escolher um carro"
+        },
+        {
+          "text": "Quero escolher um modelo"
+        },
+        {
+          "text": "Quero escolher um veículo"
+        },
+        {
+          "text": "Quero selecionar um carro"
+        },
+        {
+          "text": "Quero selecionar um modelo"
+        },
+        {
+          "text": "Quero selecionar um veículo"
+        },
+        {
+          "text": "Recomendação de carro"
+        },
+        {
+          "text": "Recomendação de modelo"
+        },
+        {
+          "text": "Recomendação de veículo"
+        },
+        {
+          "text": "Recomendar carro"
+        },
+        {
+          "text": "Recomendar modelo"
+        },
+        {
+          "text": "Recomendar veículo"
+        },
+        {
+          "text": "Recomende um carro"
+        },
+        {
+          "text": "Recomende um modelo"
+        },
+        {
+          "text": "Recomende um veículo"
+        },
+        {
+          "text": "Selecionar carro"
+        },
+        {
+          "text": "Selecionar modelo"
+        },
+        {
+          "text": "Selecionar veículo"
+        }
+      ],
+      "description": "Usuário solicita a recomendação de um modelo da marca."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "categoria-carro",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Camionete",
+          "synonyms": [
+            "caminhão",
+            "caminhãonete",
+            "caminhonete",
+            "carreta",
+            "grandalhão",
+            "grandão",
+            "grande",
+            "grandona",
+            "picape",
+            "picapi",
+            "pick up",
+            "pick-up",
+            "pickup",
+            "truck"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Comercial",
+          "synonyms": [
+            "carga",
+            "cargas",
+            "empresa",
+            "empresas",
+            "entrega",
+            "entregas",
+            "frete",
+            "fretes",
+            "transporte",
+            "transportes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Elétrico",
+          "synonyms": [
+            "electric",
+            "electrics",
+            "eletric",
+            "elétricos",
+            "eletrics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Esportivo",
+          "synonyms": [
+            "alta performance",
+            "alto desempenho",
+            "desempenho",
+            "esporte",
+            "esportes",
+            "esportivos",
+            "performance",
+            "sport",
+            "sports"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Passeio",
+          "synonyms": [
+            "cidade",
+            "cidades",
+            "passear",
+            "passeios",
+            "urbano",
+            "urbanos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SUV",
+          "synonyms": [
+            "perua",
+            "peruas",
+            "sport utility",
+            "sport utility vehicle"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "finalidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dia a dia",
+          "synonyms": [
+            "comum",
+            "dia-a-dia",
+            "diário",
+            "normal",
+            "rotina",
+            "rotineiro",
+            "todo dia",
+            "todo o dia",
+            "todos dias",
+            "todos os dias"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lazer",
+          "synonyms": [
+            "apreciação",
+            "apreciar",
+            "diversão",
+            "exibir",
+            "ostentar",
+            "recreação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Off-Road",
+          "synonyms": [
+            "aventureiro",
+            "estrada de terra",
+            "fora da estrada",
+            "no mato",
+            "off road",
+            "offroad",
+            "trilha",
+            "trilhas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Trabalho",
+          "synonyms": [
+            "carga",
+            "companhia",
+            "empresa",
+            "empresas",
+            "entrega",
+            "esforçar",
+            "esforçará",
+            "esforço",
+            "fazer força",
+            "firma",
+            "firmas",
+            "frete",
+            "instituto",
+            "organização",
+            "serviço",
+            "serviços",
+            "trabalhamos",
+            "trabalhar",
+            "trabalharei",
+            "trabalharemos",
+            "transporte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Viagem",
+          "synonyms": [
+            "dar umas voltas",
+            "dar uma volta",
+            "estrada",
+            "passear",
+            "passeio",
+            "passeios",
+            "viagens",
+            "viajamos",
+            "viajar",
+            "viajarei",
+            "viajaremos",
+            "viajo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "modelo-carro",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ford Bronco Sport 2021",
+          "synonyms": [
+            "bromco",
+            "bromco esporte",
+            "bromco sport",
+            "bronco",
+            "bronco esporte",
+            "bronco sport"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Ecosport 2021",
+          "synonyms": [
+            "eco esporte",
+            "eco-esporte",
+            "ecoesporte",
+            "eco sport",
+            "eco-sport",
+            "ecosport"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Escape Hybrid 2021",
+          "synonyms": [
+            "escape",
+            "escape electric",
+            "escape eletric",
+            "escape elétrico",
+            "escape h",
+            "escape-h",
+            "escape hybrid",
+            "scape",
+            "scape electric",
+            "scape eletric",
+            "scape elétrico",
+            "scape h",
+            "scape-h",
+            "scape hybrid"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Explorer Hybrid 2021",
+          "synonyms": [
+            "explorer",
+            "explorer electric",
+            "explorer eletric",
+            "explorer elétrico",
+            "explorer h",
+            "explorer-h",
+            "explorer hybrid",
+            "xplorer",
+            "xplorer electric",
+            "xplorer eletric",
+            "xplorer elétrico",
+            "xplorer h",
+            "xplorer-h",
+            "xplorer hybrid"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford F-150 Raptor 2020",
+          "synonyms": [
+            "f 150",
+            "f-150",
+            "f150",
+            "f 150 raptor",
+            "f-150 raptor",
+            "f150 raptor",
+            "raptor",
+            "raptor 150",
+            "raptor150",
+            "raptor f 150",
+            "raptor f-150",
+            "raptor f150"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Fusion Hybrid 2021",
+          "synonyms": [
+            "fiusion",
+            "fiuzion",
+            "fiuzon",
+            "fusion",
+            "fusion electric",
+            "fusion eletric",
+            "fusion elétrico",
+            "fusion h",
+            "fusion-h",
+            "fusion hybrid",
+            "fuzion",
+            "fuzon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Mustang Mach 1 2021",
+          "synonyms": [
+            "mustang",
+            "mustang mac",
+            "mustang mac 1",
+            "mustang mach",
+            "mustang mach 1",
+            "mustang mach i",
+            "mustang mac i",
+            "mustangue"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Mustang Mach-E 2021",
+          "synonyms": [
+            "mustang electric",
+            "mustang eletric",
+            "mustang elétrico",
+            "mustang mac e",
+            "mustang mac-e",
+            "mustang mach e",
+            "mustang mach-e",
+            "mustangue electric",
+            "mustangue eletric",
+            "mustangue elétrico",
+            "mustangue mac e",
+            "mustangue mac-e",
+            "mustangue mach e",
+            "mustangue mach-e"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Mustang Shelby GT500 2021",
+          "synonyms": [
+            "gt 500",
+            "gt-500",
+            "gt500",
+            "mustang gt 500",
+            "mustang gt-500",
+            "mustang gt500",
+            "mustangue gt 500",
+            "mustangue gt-500",
+            "mustangue gt500",
+            "mustangue shelby",
+            "shelb",
+            "shelbi",
+            "shelby",
+            "shelby gt500"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Super Duty 2021",
+          "synonyms": [
+            "duty",
+            "super dut",
+            "superdut",
+            "super duti",
+            "superduti",
+            "super duty",
+            "superduty"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Transit 2021",
+          "synonyms": [
+            "transit",
+            "transite",
+            "tranzit",
+            "tranzite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ford Transit Connect 2021",
+          "synonyms": [
+            "transit conect",
+            "transit conecte",
+            "transit conet",
+            "transit connect",
+            "transit connecte",
+            "transit connet",
+            "tranzit conect",
+            "tranzit conecte",
+            "tranzit conet",
+            "tranzit connect",
+            "tranzit connecte",
+            "tranzit connet"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/rafael.schubert.campos%40gmail.com_dev/default/Consulta%20Precos%20Modelos%20Ford%20Mock",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Eu sou o assistente de atendimento da concessionária e estou aqui para ajudar-lhe."
+              },
+              {
+                "text": "Oi! Eu sou o assistente de atendimento da concessionária e estou aqui para ajudar-lhe."
+              },
+              {
+                "text": "Como vai? Eu sou o assistente de atendimento da concessionária e estou aqui para ajudar-lhe."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Trabalhamos com diversos modelos da montadora Ford, apenas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Posso lhe recomendar o modelo de carro mais apropriado às suas necessidades, encomendá-lo e até agendar um test-drive."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "O que posso fazer por você?"
+              },
+              {
+                "text": "Como posso lhe ajudar?"
+              },
+              {
+                "text": "Do que você precisa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1620514515667",
+      "context": {
+        "modelo": "@modelo-carro"
+      },
+      "conditions": "@modelo-carro",
+      "event_name": "input",
+      "dialog_node": "handler_10_1620514515693"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que modelo você gostaria de conhecer melhor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1620514515667",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1620514515693",
+      "previous_sibling": "handler_10_1620514515693"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1620593295279",
+      "context": {
+        "finalidade": "@finalidade"
+      },
+      "conditions": "@finalidade",
+      "event_name": "input",
+      "dialog_node": "handler_1_1620593295296"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_9_1620594227507",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1620594227535",
+      "previous_sibling": "handler_5_1620594227535"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em que dia e horário você gostaria de agendar seu test-drive?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1620598434567",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1620598945496",
+      "previous_sibling": "node_4_1620599359906"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1620592628181",
+      "event_name": "input",
+      "dialog_node": "handler_18_1620592628181"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1620592628181",
+      "event_name": "focus",
+      "dialog_node": "handler_19_1620592628181",
+      "previous_sibling": "handler_18_1620592628181"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_5_1620595151651",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1620595151679",
+      "previous_sibling": "handler_7_1620595151679"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em que dia você gostaria de comparecer à concessionária para realizar seu test-drive?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1620598946502",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1620598946511",
+      "previous_sibling": "handler_5_1620598946511"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, eu não conheço esse modelo, ou não entendi o que você quis dizer."
+              },
+              {
+                "text": "Uhm. Eu não ouvi falar desse modelo."
+              },
+              {
+                "text": "Acho que não temos esse modelo em nosso catálogo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "slot_8_1620514515667",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1620520351530",
+      "previous_sibling": "handler_1_1620514515693"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em que horário você gostaria de comparecer à concessionária para realizar seu test-drive?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_1_1620599016199",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1620599016199",
+      "previous_sibling": "handler_6_1620599016199"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_3_1620593295279",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1620593295296",
+      "previous_sibling": "handler_1_1620593295296"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1620594227507",
+      "context": {
+        "categoria": "@categoria-carro"
+      },
+      "conditions": "@categoria-carro",
+      "event_name": "input",
+      "dialog_node": "handler_5_1620594227535"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1620598946502",
+      "context": {
+        "data_testdrive": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_5_1620598946511"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1620599016199",
+      "context": {
+        "horario_testdrive": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_6_1620599016199"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1620595151651",
+      "context": {
+        "passageiros": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_7_1620595151679"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar agendamento de test-drive",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deseja agendar um test-drive do modelo $modelo em nossa concessionária?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620865894807",
+      "conditions": "true",
+      "dialog_node": "node_10_1620529397538",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Avaliar resposta",
+      "parent": "node_3_1620529680087",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1620529680087"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1620596395321"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar compra",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Finalizando compra."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620529976798",
+      "context": {
+        "modelo": null,
+        "em_compra": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1620600892629"
+      },
+      "dialog_node": "node_10_1620597312156",
+      "previous_sibling": "node_5_1620531616788",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar agendamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Finalizando agendamento de test-drive."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620596224307",
+      "context": {
+        "modelo": null,
+        "data_testdrive": null,
+        "em_agendamento": null,
+        "horario_testdrive": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1620600892629"
+      },
+      "dialog_node": "node_10_1620599455347",
+      "previous_sibling": "node_4_1620598434567",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Comprar modelo",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "em_compra": true
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1620597554130"
+      },
+      "conditions": "#comprar-veiculo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1620529976798",
+      "previous_sibling": "node_6_1620263797078"
+    },
+    {
+      "type": "standard",
+      "title": "Outras respostas",
+      "parent": "node_5_1620530031837",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1620530031837"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1620591738604",
+      "previous_sibling": "node_9_1620597818101",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Agendar test-drive",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "data_testdrive": null,
+        "em_agendamento": true,
+        "horario_testdrive": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1620597554130"
+      },
+      "conditions": "#agendar-test-drive",
+      "dialog_node": "node_1_1620596224307",
+      "previous_sibling": "node_1_1620529976798"
+    },
+    {
+      "type": "standard",
+      "title": "Recomendar modelo por finalidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nosso catálogo inclui modelos Ford para as seguintes utilidades:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Dia a dia",
+                "value": {
+                  "input": {
+                    "text": "Dia a dia"
+                  }
+                }
+              },
+              {
+                "label": "Lazer",
+                "value": {
+                  "input": {
+                    "text": "Lazer"
+                  }
+                }
+              },
+              {
+                "label": "Off-Road",
+                "value": {
+                  "input": {
+                    "text": "Off-Road"
+                  }
+                }
+              },
+              {
+                "label": "Trabalho",
+                "value": {
+                  "input": {
+                    "text": "Trabalho"
+                  }
+                }
+              },
+              {
+                "label": "Viagem",
+                "value": {
+                  "input": {
+                    "text": "Viagem"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Que uso você pretende fazer de seu veículo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1620263797078",
+      "context": {
+        "finalidade": null
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#avaliar-por-finalidade",
+      "dialog_node": "node_13_1620592628176",
+      "previous_sibling": "node_2_1620527074243"
+    },
+    {
+      "type": "standard",
+      "title": "Opções de modelos por finalidade",
+      "output": {},
+      "parent": "node_2_1620593249699",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_31_1620514488689"
+      },
+      "conditions": "true",
+      "dialog_node": "node_16_1620592628181"
+    },
+    {
+      "type": "standard",
+      "title": "Informou modelo específico",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1620263797078",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_31_1620514488689"
+      },
+      "conditions": "@modelo-carro",
+      "dialog_node": "node_2_1620527074243",
+      "previous_sibling": "response_1_1620526747742",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Avaliar resposta",
+      "parent": "node_4_1620530386514",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1620530386514"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1620587377612",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "Avaliar resposta",
+      "parent": "node_13_1620592628176",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1620593249699",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "Avaliar resposta",
+      "parent": "node_44_1620594645788",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1620594685941",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Recomendar modelo por categoria",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nosso catálogo inclui modelos Ford das seguintes categorias:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Camionete",
+                "value": {
+                  "input": {
+                    "text": "Camionete"
+                  }
+                }
+              },
+              {
+                "label": "Comercial",
+                "value": {
+                  "input": {
+                    "text": "Comercial"
+                  }
+                }
+              },
+              {
+                "label": "Elétrico",
+                "value": {
+                  "input": {
+                    "text": "Elétrico"
+                  }
+                }
+              },
+              {
+                "label": "Esportivo",
+                "value": {
+                  "input": {
+                    "text": "Esportivo"
+                  }
+                }
+              },
+              {
+                "label": "Passeio",
+                "value": {
+                  "input": {
+                    "text": "Passeio"
+                  }
+                }
+              },
+              {
+                "label": "SUV",
+                "value": {
+                  "input": {
+                    "text": "SUV"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Que categoria de veículos lhe desperta o interesse?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1620263797078",
+      "context": {
+        "categoria": null
+      },
+      "conditions": "#avaliar-por-categoria",
+      "dialog_node": "node_30_1620594084229",
+      "previous_sibling": "node_13_1620592628176"
+    },
+    {
+      "type": "frame",
+      "title": "Capturar modelo escolhido",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_31_1620514488689",
+      "previous_sibling": "node_9_1620597554130"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar compra do veículo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deseja adquirir um veículo do modelo $modelo pela nossa concessionária?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620865894807",
+      "dialog_node": "node_3_1620529680087",
+      "previous_sibling": "node_10_1620529397538",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Opções de modelos por categoria",
+      "output": {},
+      "parent": "node_5_1620594201244",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_31_1620514488689"
+      },
+      "conditions": "true",
+      "dialog_node": "node_33_1620594084231"
+    },
+    {
+      "type": "standard",
+      "title": "Requisitar modelo ou recomendação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que modelo Ford lhe desperta interesse? Se quiser, você também pode me solicitar uma recomendação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620597554130",
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1620530386514",
+      "previous_sibling": "node_5_1620530031837"
+    },
+    {
+      "type": "standard",
+      "title": "Capturou modelo escolhido",
+      "parent": "node_31_1620514488689",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1620865894807"
+      },
+      "conditions": "$modelo",
+      "dialog_node": "node_4_1620598194038",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "Solicitar data e horário do test-drive",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você está agendando um test-drive como descrito a seguir:\nModelo: $modelo\nData: $data_testdrive\nHorário: $horario_testdrive\n\nConfirma o agendamento de seu test-drive?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620596224307",
+      "dialog_node": "node_4_1620598434567",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Avaliar resposta",
+      "parent": "node_4_1620598434567",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1620598434567"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1620599359906",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_42_1620432319774",
+      "previous_sibling": "node_8_1620600892629",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Recomendar modelo por capacidade de passageiros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nosso catálogo inclui modelos Ford com as seguintes capacidades de passageiros:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Até 3",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "Até 5",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              },
+              {
+                "label": "Até 7",
+                "value": {
+                  "input": {
+                    "text": "7"
+                  }
+                }
+              },
+              {
+                "label": "8 ou mais",
+                "value": {
+                  "input": {
+                    "text": "8"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Quantas pessoas você espera transportar com o veículo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1620263797078",
+      "context": {
+        "passageiros": null
+      },
+      "conditions": "#avaliar-por-capacidade-passageiros",
+      "dialog_node": "node_44_1620594645788",
+      "previous_sibling": "node_30_1620594084229"
+    },
+    {
+      "type": "standard",
+      "title": "Redirecionar para lista de modelos",
+      "parent": "node_31_1620514488689",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_42_1620432319774"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1620519998331",
+      "previous_sibling": "node_4_1620598194038",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Confirmar escolha prévia de modelo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Confirma o modelo escolhido como sendo um $modelo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1620597554130",
+      "conditions": "$modelo",
+      "dialog_node": "node_5_1620530031837",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Requisitar confirmação de compra",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "[Este chatbot foi desenvolvido unicamente como um trabalho num curso de especialização em Data Science. Portanto, ele finaliza a compra, mas não realiza etapas de pagamento]"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Você está adquirindo um veículo do modelo:\n- $modelo\nConfirma a realização da compra?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620529976798",
+      "conditions": "",
+      "dialog_node": "node_5_1620531616788",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "Avaliar resposta",
+      "parent": "node_30_1620594084229",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1620594201244",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Encerrar recomendação",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1620263797078",
+      "context": {
+        "modelo": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1620600892629"
+      },
+      "dialog_node": "node_5_1620600380071",
+      "previous_sibling": "node_9_1620865894807",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Listar modelos por capacidade de passageiros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nosso catálogo inclui os seguintes modelos Ford para essa capacidade de passageiros:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1620594685941",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_58_1620594645790",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Opções de modelos por capacidade de passageiros",
+      "output": {},
+      "parent": "node_58_1620594645790",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_31_1620514488689"
+      },
+      "conditions": "true",
+      "dialog_node": "node_59_1620594645790",
+      "previous_sibling": "response_64_1620594645790"
+    },
+    {
+      "type": "standard",
+      "title": "Recomendar modelo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual é a primeira coisa que você avalia em um carro? A finalidade dele? O número de passageiros? Ou talvez você queira listar pelas categorias?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "modelo": null
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#recomendar-modelo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1620263797078",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliar resposta",
+      "parent": "node_10_1620529397538",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1620529397538"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1620596267665",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Continuar atendimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que mais posso fazer por você?"
+              },
+              {
+                "text": "Deseja mais alguma coisa?"
+              },
+              {
+                "text": "Algum outro pedido?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_8_1620600892629",
+      "previous_sibling": "node_31_1620514488689",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Avaliar resposta",
+      "parent": "node_5_1620531616788",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1620531616788"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1620592023554",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Requisitar escolha de modelo",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "",
+      "dialog_node": "node_9_1620597554130",
+      "previous_sibling": "node_1_1620596224307",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Confirmar modelo",
+      "parent": "node_5_1620530031837",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_42_1620432319774"
+      },
+      "conditions": "#confirmacao",
+      "dialog_node": "node_9_1620597818101"
+    },
+    {
+      "type": "standard",
+      "title": "Descrever modelo escolhido",
+      "parent": "node_6_1620263797078",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "modelo": "$modelo",
+            "operacao": "consultar_modelo"
+          },
+          "result_variable": "retorno_consulta_modelo"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "dialog_node": "node_9_1620865894807",
+      "previous_sibling": "node_44_1620594645788",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infelizmente, nós não temos nenhum modelo em nosso catálogo capaz de transportar $passageiros ou mais pessoas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1620594685941",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_44_1620594645788"
+      },
+      "conditions": "$passageiros && $passageiros > 15",
+      "dialog_node": "response_10_1620595223793",
+      "previous_sibling": "response_3_1620595184302"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Fusion Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Fusion Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Transit Connect 2021",
+                "value": {
+                  "input": {
+                    "text": "Transit Connect"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_33_1620594084231",
+      "conditions": "$categoria:Passeio",
+      "dialog_node": "response_10_1620699335332",
+      "previous_sibling": "response_8_1620699328642"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido! Vou lhe ajudar a escolher o melhor modelo para você!"
+              },
+              {
+                "text": "Certo! Vou lhe ajudar a escolher o melhor modelo dentro de suas necessidades."
+              },
+              {
+                "text": "Tudo bem, vamos avaliar um modelo para você!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1620263797078",
+      "context": {
+        "modelo": null,
+        "categoria": null,
+        "finalidade": null,
+        "passageiros": null
+      },
+      "disabled": true,
+      "conditions": "!$em_compra",
+      "dialog_node": "response_1_1620526747742"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, eu não entendi. Poderia repetir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620591738604",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1620591874303",
+      "previous_sibling": "response_5_1620591835445"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido."
+              },
+              {
+                "text": "Tudo bem."
+              },
+              {
+                "text": "Certo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1620592023554",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1620597312156"
+      },
+      "conditions": "#declinacao",
+      "dialog_node": "response_1_1620592083140",
+      "previous_sibling": "response_3_1620592037143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1620596395321",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1620529976798"
+      },
+      "conditions": "#confirmacao",
+      "dialog_node": "response_1_1620596407612"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Super Duty 2021",
+                "value": {
+                  "input": {
+                    "text": "Super Duty"
+                  }
+                }
+              },
+              {
+                "label": "Ford Transit 2021",
+                "value": {
+                  "input": {
+                    "text": "Transit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_33_1620594084231",
+      "conditions": "$categoria:Comercial",
+      "dialog_node": "response_1_1620699304984",
+      "previous_sibling": "response_9_1620699296000"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Super Duty 2021",
+                "value": {
+                  "input": {
+                    "text": "Super Duty"
+                  }
+                }
+              },
+              {
+                "label": "Ford Transit 2021",
+                "value": {
+                  "input": {
+                    "text": "Transit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1620592628181",
+      "conditions": "$finalidade:Trabalho",
+      "dialog_node": "response_1_1620701496546",
+      "previous_sibling": "response_6_1620701484834"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$retorno_consulta_modelo.descricao"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Palavras-chave: $retorno_consulta_modelo.tags"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Custo: a partir de $retorno_consulta_modelo.preco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620865894807",
+      "conditions": "$retorno_consulta_modelo",
+      "dialog_node": "response_1_1620865923755",
+      "previous_sibling": "node_3_1620529680087"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1620519998331",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1620594201244"
+      },
+      "conditions": "$categoria",
+      "dialog_node": "response_2_1620520073039"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, eu não entendi. Poderia repetir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620592023554",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1620592116978",
+      "previous_sibling": "response_1_1620592083140"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620594685941",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_31_1620514488689"
+      },
+      "conditions": "@modelo-carro",
+      "dialog_node": "response_2_1620594732269",
+      "previous_sibling": "slot_5_1620595151651"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1620596267665",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1620596224307"
+      },
+      "conditions": "#confirmacao",
+      "dialog_node": "response_2_1620596282118"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Feito! Seu test-drive de um $modelo foi agendado para $data_testdrive, às $horario_testdrive."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Agradecemos sua preferência por nossos serviços!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1620599359906",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1620599455347"
+      },
+      "conditions": "#confirmacao",
+      "dialog_node": "response_2_1620599380808"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Bronco Sport 2021",
+                "value": {
+                  "input": {
+                    "text": "Bronco Sport"
+                  }
+                }
+              },
+              {
+                "label": "Ford Ecosport 2021",
+                "value": {
+                  "input": {
+                    "text": "Ecosport"
+                  }
+                }
+              },
+              {
+                "label": "Ford Escape Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Escape Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford F-150 Raptor 2020",
+                "value": {
+                  "input": {
+                    "text": "F-150 Raptor"
+                  }
+                }
+              },
+              {
+                "label": "Ford Fusion Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Fusion Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach 1 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach 1"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach-E 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach-E"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Shelby GT500 2021",
+                "value": {
+                  "input": {
+                    "text": "Shelby GT500"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_59_1620594645790",
+      "conditions": "$passageiros <= 5",
+      "dialog_node": "response_2_1620702576559",
+      "previous_sibling": "response_3_1620702563965"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620587377612",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1620263797078"
+      },
+      "conditions": "#recomendar-modelo",
+      "dialog_node": "response_3_1620587535907",
+      "previous_sibling": "response_9_1620587413577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Feito! Compra efetuada!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Agradecemos a sua preferência por nossos serviços!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1620592023554",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1620597312156"
+      },
+      "conditions": "#confirmacao",
+      "dialog_node": "response_3_1620592037143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620593249699",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_31_1620514488689"
+      },
+      "conditions": "@modelo-carro",
+      "dialog_node": "response_3_1620593280082",
+      "previous_sibling": "slot_3_1620593295279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não conheço essa categoria."
+              },
+              {
+                "text": "Essa categoria não consta no meu banco de dados."
+              },
+              {
+                "text": "Posso não ter entendido qual é a categoria que você procura. Poderia repetir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1620594201244",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_30_1620594084229"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1620594327042",
+      "previous_sibling": "response_5_1620594265568"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620594685941",
+      "conditions": "$passageiros && $passageiros <= 15",
+      "dialog_node": "response_3_1620595184302",
+      "previous_sibling": "response_5_1620595039606"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1620597818101",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1620598434567"
+      },
+      "conditions": "$em_agendamento",
+      "dialog_node": "response_3_1620597917015",
+      "previous_sibling": "response_7_1620597845902"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, eu não entendi. Poderia repetir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1620599359906",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1620599531183",
+      "previous_sibling": "response_6_1620599518595"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Super Duty 2021",
+                "value": {
+                  "input": {
+                    "text": "Super Duty"
+                  }
+                }
+              },
+              {
+                "label": "Ford Transit 2021",
+                "value": {
+                  "input": {
+                    "text": "Transit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_59_1620594645790",
+      "conditions": "$passageiros <= 3",
+      "dialog_node": "response_3_1620702563965"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_9_1620865894807",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1620865925124",
+      "previous_sibling": "response_1_1620865923755"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620594685941",
+      "context": {
+        "passageiros": 2
+      },
+      "conditions": "#capacidade-passageiros-casal",
+      "dialog_node": "response_4_1620595004530",
+      "previous_sibling": "response_8_1620594983222"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi quantas pessoas você pretende transportar."
+              },
+              {
+                "text": "Desculpe, quantas pessoas você pretende levar mesmo?"
+              },
+              {
+                "text": "Acho que não lhe entendi. Pode reformular quantas pessoas você pretende levar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1620594685941",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_44_1620594645788"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1620595367033",
+      "previous_sibling": "response_10_1620595223793"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, eu não entendi. Poderia repetir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1620596267665",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1620596296989",
+      "previous_sibling": "response_6_1620596291579"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1620596395321",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1620600380071"
+      },
+      "conditions": "#declinacao",
+      "dialog_node": "response_4_1620596413672",
+      "previous_sibling": "response_1_1620596407612"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford F-150 Raptor 2020",
+                "value": {
+                  "input": {
+                    "text": "F-150 Raptor"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach 1 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach 1"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Shelby GT500 2021",
+                "value": {
+                  "input": {
+                    "text": "Shelby GT500"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1620592628181",
+      "conditions": "$finalidade:Lazer",
+      "dialog_node": "response_4_1620701471121",
+      "previous_sibling": "response_5_1620701443466"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1620432319774",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_43_1620432319778"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1620591738604",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1620530386514"
+      },
+      "conditions": "#declinacao",
+      "dialog_node": "response_5_1620591835445"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, eu não entendi."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1620587377612",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1620591947836",
+      "previous_sibling": "response_3_1620587535907"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos os seguintes modelos Ford para a categoria $categoria:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620594201244",
+      "conditions": "$categoria",
+      "dialog_node": "response_5_1620594265568",
+      "previous_sibling": "response_9_1620594226963"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620594685941",
+      "context": {
+        "passageiros": 7
+      },
+      "conditions": "#capacidade-passageiros-familia-grande",
+      "dialog_node": "response_5_1620595039606",
+      "previous_sibling": "response_8_1620595022048"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1620598194038",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1620530031837"
+      },
+      "conditions": "$em_compra || $em_agendamento",
+      "dialog_node": "response_5_1620598211185"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Ecosport 2021",
+                "value": {
+                  "input": {
+                    "text": "Ecosport"
+                  }
+                }
+              },
+              {
+                "label": "Ford Escape Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Escape Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Fusion Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Fusion Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach-E 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach-E"
+                  }
+                }
+              },
+              {
+                "label": "Ford Transit Connect 2021",
+                "value": {
+                  "input": {
+                    "text": "Transit Connect"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1620592628181",
+      "conditions": "$finalidade:(Dia a dia)",
+      "dialog_node": "response_5_1620701443466"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos os seguintes modelos Ford para $finalidade:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1620593249699",
+      "conditions": "$finalidade",
+      "dialog_node": "response_6_1620593351159",
+      "previous_sibling": "response_3_1620593280082"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1620596267665",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1620529680087"
+      },
+      "conditions": "#declinacao",
+      "dialog_node": "response_6_1620596291579",
+      "previous_sibling": "response_2_1620596282118"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, eu não entendi. Poderia repetir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1620596395321",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1620596417782",
+      "previous_sibling": "response_4_1620596413672"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendido."
+              },
+              {
+                "text": "Tudo bem."
+              },
+              {
+                "text": "Certo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1620599359906",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1620599455347"
+      },
+      "conditions": "#declinacao",
+      "dialog_node": "response_6_1620599518595",
+      "previous_sibling": "response_2_1620599380808"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Bronco Sport 2021",
+                "value": {
+                  "input": {
+                    "text": "Bronco Sport"
+                  }
+                }
+              },
+              {
+                "label": "Ford F-150 Raptor 2020",
+                "value": {
+                  "input": {
+                    "text": "F-150 Raptor"
+                  }
+                }
+              },
+              {
+                "label": "Ford Super Duty 2021",
+                "value": {
+                  "input": {
+                    "text": "Super Duty"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1620592628181",
+      "conditions": "$finalidade:(Off-Road)",
+      "dialog_node": "response_6_1620701484834",
+      "previous_sibling": "response_4_1620701471121"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Transit Connect 2021",
+                "value": {
+                  "input": {
+                    "text": "Transit Connect"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_59_1620594645790",
+      "conditions": "$passageiros > 7",
+      "dialog_node": "response_6_1620702594240",
+      "previous_sibling": "response_7_1620702586309"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para essa capacidade, temos os seguintes modelos. Qual deles você gostaria de conhecer melhor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_58_1620594645790",
+      "disabled": true,
+      "conditions": "$passageiros < 7",
+      "dialog_node": "response_64_1620594645790"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1620519998331",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1620593249699"
+      },
+      "conditions": "$finalidade",
+      "dialog_node": "response_7_1620520030863",
+      "previous_sibling": "response_2_1620520073039"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1620597818101",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1620531616788"
+      },
+      "conditions": "$em_compra",
+      "dialog_node": "response_7_1620597845902"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Explorer Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Explorer Hybrid"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_59_1620594645790",
+      "conditions": "$passageiros <= 7",
+      "dialog_node": "response_7_1620702586309",
+      "previous_sibling": "response_2_1620702576559"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620594685941",
+      "context": {
+        "passageiros": 1
+      },
+      "conditions": "#capacidade-passageiros-solteiro",
+      "dialog_node": "response_8_1620594983222",
+      "previous_sibling": "response_2_1620594732269"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620594685941",
+      "context": {
+        "passageiros": 4
+      },
+      "conditions": "#capacidade-passageiros-familia",
+      "dialog_node": "response_8_1620595022048",
+      "previous_sibling": "response_4_1620595004530"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford F-150 Raptor 2020",
+                "value": {
+                  "input": {
+                    "text": "F-150 Raptor"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach 1 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach 1"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach-E 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach-E"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Shelby GT500 2021",
+                "value": {
+                  "input": {
+                    "text": "Shelby GT500"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_33_1620594084231",
+      "conditions": "$categoria:Esportivo",
+      "dialog_node": "response_8_1620699328642",
+      "previous_sibling": "response_9_1620699313056"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1620519998331",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1620594685941"
+      },
+      "conditions": "$passageiros",
+      "dialog_node": "response_9_1620520100152",
+      "previous_sibling": "response_7_1620520030863"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1620587377612",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_31_1620514488689"
+      },
+      "conditions": "@modelo-carro",
+      "dialog_node": "response_9_1620587413577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acho que não temos modelos para essa finalidade."
+              },
+              {
+                "text": "Posso não ter entendido a finalidade que você procura."
+              },
+              {
+                "text": "Poderia repetir a finalidade, por favor? Posso não ter lhe compreendido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1620593249699",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1620592628176"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1620593410822",
+      "previous_sibling": "response_6_1620593351159"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1620594201244",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_31_1620514488689"
+      },
+      "conditions": "@modelo-carro",
+      "dialog_node": "response_9_1620594226963",
+      "previous_sibling": "slot_9_1620594227507"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford F-150 Raptor 2020",
+                "value": {
+                  "input": {
+                    "text": "F-150 Raptor"
+                  }
+                }
+              },
+              {
+                "label": "Ford Super Duty 2021",
+                "value": {
+                  "input": {
+                    "text": "Super Duty"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_33_1620594084231",
+      "conditions": "$categoria:Camionete",
+      "dialog_node": "response_9_1620699296000"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Escape Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Escape Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Explorer Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Explorer Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Fusion Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Fusion Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach-E 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach-E"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_33_1620594084231",
+      "conditions": "$categoria:Elétrico",
+      "dialog_node": "response_9_1620699313056",
+      "previous_sibling": "response_1_1620699304984"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Bronco Sport 2021",
+                "value": {
+                  "input": {
+                    "text": "Bronco Sport"
+                  }
+                }
+              },
+              {
+                "label": "Ford Ecosport 2021",
+                "value": {
+                  "input": {
+                    "text": "Ecosport"
+                  }
+                }
+              },
+              {
+                "label": "Ford Escape Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Escape Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Explorer Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Explorer Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach-E 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach-E"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_33_1620594084231",
+      "conditions": "$categoria:SUV",
+      "dialog_node": "response_9_1620699341904",
+      "previous_sibling": "response_10_1620699335332"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ford Bronco Sport 2021",
+                "value": {
+                  "input": {
+                    "text": "Bronco Sport"
+                  }
+                }
+              },
+              {
+                "label": "Ford Escape Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Escape Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Explorer Hybrid 2021",
+                "value": {
+                  "input": {
+                    "text": "Explorer Hybrid"
+                  }
+                }
+              },
+              {
+                "label": "Ford Mustang Mach-E 2021",
+                "value": {
+                  "input": {
+                    "text": "Mustang Mach-E"
+                  }
+                }
+              },
+              {
+                "label": "Ford Transit Connect 2021",
+                "value": {
+                  "input": {
+                    "text": "Transit Connect"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1620592628181",
+      "conditions": "$finalidade:Viagem",
+      "dialog_node": "response_9_1620701503718",
+      "previous_sibling": "response_1_1620701496546"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1620598434567",
+      "variable": "$horario_testdrive",
+      "dialog_node": "slot_1_1620599016199",
+      "previous_sibling": "slot_6_1620598946502"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_16_1620592628181",
+      "dialog_node": "slot_17_1620592628181",
+      "previous_sibling": "response_9_1620701503718"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1620593249699",
+      "variable": "$finalidade",
+      "dialog_node": "slot_3_1620593295279",
+      "previous_sibling": "node_16_1620592628181"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1620594685941",
+      "variable": "$passageiros",
+      "dialog_node": "slot_5_1620595151651",
+      "previous_sibling": "node_58_1620594645790"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1620598434567",
+      "variable": "$data_testdrive",
+      "dialog_node": "slot_6_1620598946502",
+      "previous_sibling": "handler_1_1620598945496"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_31_1620514488689",
+      "variable": "$modelo",
+      "dialog_node": "slot_8_1620514515667",
+      "previous_sibling": "node_5_1620519998331"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1620594201244",
+      "variable": "$categoria",
+      "dialog_node": "slot_9_1620594227507",
+      "previous_sibling": "node_33_1620594084231"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Auto shopping",
+  "language": "pt-br",
+  "description": "Encomenda, compra e agendamento de test-drive."
+}
