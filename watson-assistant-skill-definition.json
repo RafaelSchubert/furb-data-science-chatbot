@@ -3035,25 +3035,7 @@
           {
             "values": [
               {
-                "text": "$retorno_consulta_modelo.descricao"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Palavras-chave: $retorno_consulta_modelo.tags"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Custo: a partir de $retorno_consulta_modelo.preco"
+                "text": "$retorno_consulta_modelo.descricao\nPalavras-chave: $retorno_consulta_modelo.tags\nCusto: a partir de $retorno_consulta_modelo.preco"
               }
             ],
             "response_type": "text",
@@ -3136,16 +3118,7 @@
           {
             "values": [
               {
-                "text": "Feito! Seu test-drive de um $modelo foi agendado para $data_testdrive, às $horario_testdrive."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Agradecemos sua preferência por nossos serviços!"
+                "text": "Feito! Seu test-drive de um $modelo foi agendado para $data_testdrive, às $horario_testdrive.Agradecemos sua preferência por nossos serviços!"
               }
             ],
             "response_type": "text",
@@ -3265,16 +3238,7 @@
           {
             "values": [
               {
-                "text": "Feito! Compra efetuada!"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Agradecemos a sua preferência por nossos serviços!"
+                "text": "Feito! Compra efetuada!\nAgradecemos a sua preferência por nossos serviços!"
               }
             ],
             "response_type": "text",
@@ -3952,7 +3916,7 @@
       },
       "parent": "node_2_1620594685941",
       "context": {
-        "passageiros": 4
+        "passageiros": 5
       },
       "conditions": "#capacidade-passageiros-familia",
       "dialog_node": "response_8_1620595022048",
