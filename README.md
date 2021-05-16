@@ -2,6 +2,8 @@
 
 Este é meu trabalho final da disciplina _Chatbots_ do curso _Especialização em Data Science_, pela Universidade Regional de Blumenau — FURB.
 
+O _chatbot_ pode ser visualizado [aqui](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=3a368ba3-96ec-46f3-b9ac-c4ca0ce59126&serviceInstanceID=a2550b64-1b49-49f8-881c-8e4670bab333).
+
 ## Informações
 
 ### Diagramas
