@@ -24,7 +24,7 @@ O _bot_ disponibiliza três funções\* para auxiliar o cliente:
 
 -----
 
-## Informações
+## Conteúdo
 
 Sobre o conteúdo deste repositório.
 
