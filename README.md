@@ -1,12 +1,14 @@
 # Chatbot — Assistente de Concessionária
 
-Este é meu trabalho final da disciplina _Chatbots_ do curso _Especialização em Data Science_, pela Universidade Regional de Blumenau — FURB.
+Este é meu trabalho final da disciplina _Chatbots_ do curso _Especialização em Data Science_, pela Universidade Regional de Blumenau — FURB. O trabalho consiste em desenvolver um _chatbot_ para atender às necessidades dum domínio específico, diagramar seu fluxo de diálogo e fornecer indicadores e/ou métricas de seu desempenho.
 
 O _chatbot_ pode ser visualizado [aqui](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=3a368ba3-96ec-46f3-b9ac-c4ca0ce59126&serviceInstanceID=a2550b64-1b49-49f8-881c-8e4670bab333).
 
+-----
+
 ## O Assistente de Concessionária Ford
 
-Sobre o _chatbot_ desenvolvido.
+O _Assistente de Concessionária_ é um _chatbot_ desenvolvido pensando no atendimento virtual online duma concessionária de automóveis especializada na montadora Ford. Ele inclui o atendimento duns poucos serviços que poderiam, teoricamente, ser ofertados por meio dum _chatbot_. Talvez a aquisição do veículo por meio do _bot_ pareça forçada, mas devemos lembrar que alguns desses já realizam transações bancárias.
 
 ### Funções
 
@@ -19,6 +21,8 @@ O _bot_ disponibiliza três funções\* para auxiliar o cliente:
 **Aquisição de veículo:** realizar a compra dum veículo. O _bot_ solicita ao cliente que indique o modelo do veículo. Opcionalmente, esse também pode solicitar uma recomendação de modelos.
 
 \* Observe que, por tratar-se dum trabalho acadêmico, essas funções são versões deveras simplificadas de suas contrapartes reais.
+
+-----
 
 ## Informações
 
