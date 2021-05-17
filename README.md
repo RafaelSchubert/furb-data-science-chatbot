@@ -30,15 +30,4 @@ Sobre o conteúdo deste repositório.
 
 ### Diagramas
 
-Na pasta `diagrama`, você encontrará os diagramas do fluxo de diálogo do _chatbot_. O diagrama está dividido em **cinco** partes, representando as três macrotarefas e as duas microtarefas do _bot_.
-
-Macrotarefas:
-
-- **Recomendação de modelos:** arquivo `diagrama/fluxo-recomendar-modelo.png`;
-- **Agendamento de test-drive:** arquivo `diagrama/fluxo-agendar-testdrive.png`;
-- e **Aquisição de veículo:** arquivo `diagrama/fluxo-comprar-carro.png`.
-
-Microtarefas (rotinas compartilhadas pelas macrotarefas):
-
-- **Capturar o modelo informado:** realiza a captura do modelo indicado pelo cliente e redireciona para o próximo da macrotarefa. Arquivo `diagrama/fluxo-capturar-modelo.png`;
-- **Requisitar escolha de modelo:** inquire o cliente sobre o modelo que interessa-lhe na macrotarefa em execução. Se solicitado, esta rotina também direciona o fluxo para a recomendação de modelos. Arquivo `diagrama/fluxo-requisitar-escolha-modelo.png`.
+No diretório `diagrama`, você encontrará os diagramas do fluxo de diálogo do _chatbot_. Visite o diretório para mais detalhes.
