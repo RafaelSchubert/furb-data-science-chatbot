@@ -28,6 +28,10 @@ O _bot_ disponibiliza três funções\* para auxiliar o cliente:
 
 Sobre o conteúdo deste repositório.
 
+### _Chatbot_
+
+No diretório `bot`, você encontrará o arquivo JSON descrevendo a _skill_ associada ao _Watson Assistant_ desenvolvido como parte deste trabalho. Com ele, você mesmo pode replicar o _bot_ no serviço _IBM Cloud_ importando a definição da _skill_.
+
 ### Diagramas
 
 No diretório `diagrama`, você encontrará os diagramas do fluxo de diálogo do _chatbot_. Visite o diretório para mais detalhes.
