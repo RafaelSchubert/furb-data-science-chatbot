@@ -20,7 +20,7 @@ As conversas entre cliente e _bot_ são armazenadas pelo próprio serviço IBM C
 
 O _web service_ (WS) usado no trabalho é, na verdade, um _mock_ que finge uma consulta a um serviço fictício da Ford. Esse WS possui dois parâmetros: `operacao` e `modelo`.
 
-O parâmetro `operacao` determina a operação a ser executada pelo WS — apenas a operação `consultar_modelo` foi implementada. Essa ação busca os dados dum modelo de veículo da montadora Ford e retorna uma descrição, suas palavras-chave e seu preço em dólares.
+O parâmetro `operacao` determina a operação a ser executada pelo WS — apenas a operação `"consultar_modelo"` foi implementada. Essa ação busca os dados dum modelo de veículo da montadora Ford e retorna uma descrição, suas palavras-chave e seu preço em dólares.
 
 O parâmetro `modelo` é complementar a `operacao` e apenas especifica de qual modelo as informações devem ser consultadas. Os modelos que podem ser informados são todos aqueles que constam nas listas de recomendações de modelos oferecidas pelo _bot_.
 
