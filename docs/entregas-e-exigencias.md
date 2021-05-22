@@ -22,7 +22,7 @@ O trabalho exige as entregas e requisitos a seguir:
 ## 2 - Documentação
 
 - [x] Elaborar um diagrama do fluxo de diálogo do _bot_;
-- [ ] Descrever a arquitetura do _bot_ num documento.
+- [x] Descrever a arquitetura do _bot_ num documento.
 
 ## 3 - Análise
 
