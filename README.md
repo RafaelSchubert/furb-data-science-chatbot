@@ -44,28 +44,28 @@ O trabalho exige as entregas e requisitos a seguir:
 
 ### _Chatbot_
 
-1. Utilizar uma das tecnologias vistas em aula (ou discutir com o profesor sobre outra):
+- [x] Utilizar uma das tecnologias vistas em aula (ou discutir com o profesor sobre outra):
   - Dialogflow;
   - LUIS;
   - RASA;
   - Watson Assistant;
-2. Deve ser dum domínio fechado:
+- [x] Deve ser dum domínio fechado:
   - exceto restaurantes/lanchonetes, pois elaboramos um _bot_ para tal em aula;
-3. Deve possuir uma interface de usuário;
-4. Deve integrar com algum _web service_:
+- [ ] Deve possuir uma interface de usuário;
+- [x] Deve integrar com algum _web service_:
   - local ou público;
   - real ou _mock_;
-5. Deve armazenar as conversas com os usuários;
-6. O código-fonte deverá ser disponibilizado num repositório público:
+- [x] Deve armazenar as conversas com os usuários;
+- [x] O código-fonte deverá ser disponibilizado num repositório público:
   - no caso dum [_Watson Assistant_](https://www.ibm.com/br-pt/cloud/watson-assistant) (como este trabalho), deve-se disponibilizar os arquivos JSON das _skills_ do _bot_.
 
 ### Documentação
 
-1. Elaborar um diagrama do fluxo de diálogo do _bot_;
-2. Descrever a arquitetura do _bot_ num documento.
+- [x] Elaborar um diagrama do fluxo de diálogo do _bot_;
+- [ ] Descrever a arquitetura do _bot_ num documento.
 
 ### Análise
 
-Fornecer pelo menos **3** indicadores e/ou métricas de desempenho:
-- deve ser feito num _Jupyter Notebook_;
-- devem ser demonstrados graficamente.
+- [ ] Fornecer pelo menos **3** indicadores e/ou métricas de desempenho:
+  - deve ser feito num _Jupyter Notebook_;
+  - devem ser demonstrados graficamente.
