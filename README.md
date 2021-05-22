@@ -30,7 +30,7 @@ Sobre o conteúdo deste repositório.
 
 ### _Chatbot_
 
-No diretório [`bot`](./bot/), você encontrará o arquivo JSON descrevendo a _skill_ associada ao _Watson Assistant_ desenvolvido como parte deste trabalho. Com ele, você mesmo pode replicar o _bot_ no serviço _IBM Cloud_ importando a definição da _skill_.
+No diretório [`bot`](./bot/), você encontrará o arquivo JSON descrevendo a _skill_ associada ao Watson Assistant desenvolvido como parte deste trabalho. Com ele, você mesmo pode replicar o _bot_ no serviço IBM Cloud importando a definição da _skill_.
 
 ### Diagramas
 
