@@ -2,7 +2,7 @@
 
 O trabalho exige as entregas e requisitos a seguir:
 
-## _Chatbot_
+## 1 - _Chatbot_
 
 - [x] Utilizar uma das tecnologias vistas em aula (ou discutir com o profesor sobre outra):
   - Dialogflow;
@@ -19,12 +19,12 @@ O trabalho exige as entregas e requisitos a seguir:
 - [x] O código-fonte deverá ser disponibilizado num repositório público:
   - no caso dum [_Watson Assistant_](https://www.ibm.com/br-pt/cloud/watson-assistant) (como este trabalho), deve-se disponibilizar os arquivos JSON das _skills_ do _bot_.
 
-## Documentação
+## 2 - Documentação
 
 - [x] Elaborar um diagrama do fluxo de diálogo do _bot_;
 - [ ] Descrever a arquitetura do _bot_ num documento.
 
-## Análise
+## 3 - Análise
 
 - [ ] Fornecer pelo menos **3** indicadores e/ou métricas de desempenho:
   - deve ser feito num _Jupyter Notebook_;
