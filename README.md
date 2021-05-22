@@ -28,18 +28,14 @@ O _bot_ disponibiliza três funções\* para auxiliar o cliente:
 
 Sobre o conteúdo deste repositório.
 
-### 2.1 - _Chatbot_
+### 2.1 - Código-fonte
 
-No diretório [`bot`](./bot/), você encontrará o arquivo JSON descrevendo a _skill_ associada ao Watson Assistant desenvolvido como parte deste trabalho. Com ele, você mesmo pode replicar o _bot_ no serviço IBM Cloud importando a definição da _skill_.
+No diretório [`src`](./src/), você encontrará os códigos-fonte deste trabalho, incluindo aqueles do _chatbot_ e do _web service_ consultado por ele. Visite o diretório para mais detalhes.
 
-### 2.2 - Código-fonte
-
-No diretório [`src`](./src/), você encontrará os códigos-fonte deste trabalho, como aquele do _web service_ consultado pelo _bot_. Visite o diretório para mais detalhes.
-
-### 2.3 - Diagramas
+### 2.2 - Diagramas
 
 No diretório [`diagrama`](./diagrama/), você encontrará os diagramas do fluxo de diálogo do _chatbot_. Visite o diretório para mais detalhes.
 
-### 2.4 - Documentação
+### 2.3 - Documentação
 
 No diretório [`docs`](./docs/), você encontrará a documentação relacionada a este trabalho, como os requisitos e a arquitetura. Visite o diretório para mais detalhes.
