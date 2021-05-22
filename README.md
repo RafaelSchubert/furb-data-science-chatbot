@@ -6,11 +6,11 @@ O _chatbot_ pode ser visualizado [aqui](https://web-chat.global.assistant.watson
 
 -----
 
-## O Assistente de Concessionária Ford
+## 1 - O Assistente de Concessionária Ford
 
 O _Assistente de Concessionária_ é um _chatbot_ desenvolvido pensando no atendimento virtual online duma concessionária de automóveis especializada na montadora Ford. Ele inclui o atendimento duns poucos serviços que poderiam, teoricamente, ser ofertados por meio dum _chatbot_. Talvez a aquisição do veículo por meio do _bot_ pareça forçada, mas devemos lembrar que alguns desses já realizam transações bancárias, e uns outros poucos até realizam compras.
 
-### Funções
+### 1.1 - Funções
 
 O _bot_ disponibiliza três funções\* para auxiliar o cliente:
 
@@ -24,18 +24,18 @@ O _bot_ disponibiliza três funções\* para auxiliar o cliente:
 
 -----
 
-## Conteúdo
+## 2 - Conteúdo
 
 Sobre o conteúdo deste repositório.
 
-### _Chatbot_
+### 2.1 - _Chatbot_
 
 No diretório [`bot`](./bot/), você encontrará o arquivo JSON descrevendo a _skill_ associada ao Watson Assistant desenvolvido como parte deste trabalho. Com ele, você mesmo pode replicar o _bot_ no serviço IBM Cloud importando a definição da _skill_.
 
-### Diagramas
+### 2.2 - Diagramas
 
 No diretório [`diagrama`](./diagrama/), você encontrará os diagramas do fluxo de diálogo do _chatbot_. Visite o diretório para mais detalhes.
 
-### Documentação
+### 2.3 - Documentação
 
 No diretório [`docs`](./docs/), você encontrará a documentação relacionada a este trabalho, como os requisitos e a arquitetura.

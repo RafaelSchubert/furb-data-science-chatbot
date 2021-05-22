@@ -2,7 +2,7 @@
 
 Neste diretório, você encontra os diagramas do fluxo de diálogo do _Assistente de Concessionária_. Porque o diagrama completo é muito extenso, optei por dividí-lo em **cinco** partes, representando as três macrotarefas e as duas microtarefas do _bot_.
 
-## Macrotarefas:
+## 1 - Macrotarefas:
 
 As macrotarefas são os serviços atendidos pelo _bot_:
 
@@ -10,7 +10,7 @@ As macrotarefas são os serviços atendidos pelo _bot_:
 - **Agendamento de test-drive:** arquivo [`fluxo-agendar-testdrive.png`](./fluxo-agendar-testdrive.png);
 - e **Aquisição de veículo:** arquivo [`fluxo-comprar-carro.png`](./fluxo-comprar-carro.png).
 
-## Microtarefas
+## 2 - Microtarefas
 
 As microtarefas são as rotinas compartilhadas pelas macrotarefas:
 
