@@ -8,17 +8,17 @@ O _chatbot_ pode ser visualizado [aqui](https://web-chat.global.assistant.watson
 
 ## O Assistente de Concessionária Ford
 
-O _Assistente de Concessionária_ é um _chatbot_ desenvolvido pensando no atendimento virtual online duma concessionária de automóveis especializada na montadora Ford. Ele inclui o atendimento duns poucos serviços que poderiam, teoricamente, ser ofertados por meio dum _chatbot_. Talvez a aquisição do veículo por meio do _bot_ pareça forçada, mas devemos lembrar que alguns desses já realizam transações bancárias.
+O _Assistente de Concessionária_ é um _chatbot_ desenvolvido pensando no atendimento virtual online duma concessionária de automóveis especializada na montadora Ford. Ele inclui o atendimento duns poucos serviços que poderiam, teoricamente, ser ofertados por meio dum _chatbot_. Talvez a aquisição do veículo por meio do _bot_ pareça forçada, mas devemos lembrar que alguns desses já realizam transações bancárias, e uns outros poucos até realizam compras.
 
 ### Funções
 
 O _bot_ disponibiliza três funções\* para auxiliar o cliente:
 
-**Recomendação de modelos:** recomendar uma lista de modelos, além de descrevê-los, de acordo com um critério do cliente. O _bot_ consegue avaliar três critérios de seleção: finalidade, categoria e capacidade de passageiros.
-
-**Agendamento de test-drive:** agendar uma data e horário para realizar o test-drive dum modelo específico na concessionária fictícia. O _bot_ solicita ao cliente que indique um modelo, uma data e um horário para a realização do test-drive. No lugar de informar um modelo inicialmente, o cliente também pode requisitar uma recomendação.
-
-**Aquisição de veículo:** realizar a compra dum veículo. O _bot_ solicita ao cliente que indique o modelo do veículo. Opcionalmente, esse também pode solicitar uma recomendação de modelos.
+| Função | Descrição |
+| :--- | :--- |
+| Recomendação de modelos | Recomendar uma lista de modelos, além de descrevê-los, de acordo com um critério do cliente. O _bot_ consegue avaliar três critérios de seleção: finalidade, categoria e capacidade de passageiros. |
+| Agendamento de test-drive | Agendar uma data e horário para realizar o test-drive dum modelo específico na concessionária fictícia. O _bot_ solicita ao cliente que indique um modelo, uma data e um horário para a realização do test-drive. No lugar de informar um modelo inicialmente, o cliente também pode requisitar uma recomendação. |
+| Aquisição de veículo | Realizar a compra dum veículo. O _bot_ solicita ao cliente que indique o modelo do veículo. Opcionalmente, esse também pode solicitar uma recomendação de modelos. |
 
 \* Observe que, por tratar-se dum trabalho acadêmico, essas funções são versões deveras simplificadas de suas contrapartes reais.
 
@@ -30,11 +30,11 @@ Sobre o conteúdo deste repositório.
 
 ### _Chatbot_
 
-No diretório `bot`, você encontrará o arquivo JSON descrevendo a _skill_ associada ao _Watson Assistant_ desenvolvido como parte deste trabalho. Com ele, você mesmo pode replicar o _bot_ no serviço _IBM Cloud_ importando a definição da _skill_.
+No diretório [`bot`](./bot/), você encontrará o arquivo JSON descrevendo a _skill_ associada ao _Watson Assistant_ desenvolvido como parte deste trabalho. Com ele, você mesmo pode replicar o _bot_ no serviço _IBM Cloud_ importando a definição da _skill_.
 
 ### Diagramas
 
-No diretório `diagrama`, você encontrará os diagramas do fluxo de diálogo do _chatbot_. Visite o diretório para mais detalhes.
+No diretório [`diagrama`](./diagrama/), você encontrará os diagramas do fluxo de diálogo do _chatbot_. Visite o diretório para mais detalhes.
 
 -----
 
