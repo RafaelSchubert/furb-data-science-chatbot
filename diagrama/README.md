@@ -14,5 +14,5 @@ As macrotarefas são os serviços atendidos pelo _bot_:
 
 As microtarefas são as rotinas compartilhadas pelas macrotarefas:
 
-- **Capturar o modelo informado:** realiza a captura do modelo indicado pelo cliente e redireciona para o próximo da macrotarefa. Arquivo `fluxo-capturar-modelo.png`;
-- **Requisitar escolha de modelo:** inquire o cliente sobre o modelo que interessa-lhe na macrotarefa em execução. Se solicitado, esta rotina também direciona o fluxo para a recomendação de modelos. Arquivo `fluxo-requisitar-escolha-modelo.png`.
+- **Capturar o modelo informado:** realiza a captura do modelo indicado pelo cliente e redireciona para o próximo passo da macrotarefa. Arquivo `fluxo-capturar-modelo.png`;
+- **Requisitar escolha de modelo:** inquire o cliente sobre o modelo que interessa-lhe na macrotarefa em execução. Se assim solicitado, esta rotina também direciona o fluxo para a recomendação de modelos. Arquivo `fluxo-requisitar-escolha-modelo.png`.
