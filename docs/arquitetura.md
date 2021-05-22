@@ -8,11 +8,15 @@ Este documento aborda brevemente a arquitetura do _chatbot_ desenvolvido neste t
 
 O _chatbot_ é o assistente virtual inteligente que desempenha o intermédio entre o cliente e as funções disponibilizadas por um serviço. No caso deste trabalho, a interação cliente–_bot_ se dá por meio de conversão num chat online, como ocorreria, por exemplo, num serviço de mensagens instantâneas.
 
+O fluxo de diálogo do _bot_ pode ser consultado em [`/diagrama`](../diagrama/).
+
 ### 1.1 - Watson Assistant
 
 O _chatbot_ foi desenvolvido usando o serviço **Watson Assistant**, da IBM, com os recursos disponíveis numa conta gratuita do serviço **IBM Cloud**. O serviço permite desenvolver assistentes de conversação inteligentes, com conjuntos de habilidades específicas (_skills_, como o serviço as chama), movidos pela plataforma de serviços cognitivos **Watson**, também da IBM.
 
 O _bot_ desenvolvido é voltado para a prestação de serviços online duma concessionária fictícia da montadora Ford. Para tal, implementou-se uma _skill_ para compreender e atender as funções que foram estipuladas (recomendação de modelos, compra e agendamento de test-drive) por conversação com o cliente. A _skill_, então, foi associada a um assistente (_assistant_), que foi implantado com um _web chat_.
+
+A definição da _skill_ pode ser encontrada em [`/src/bot`](../src/bot/).
 
 O _assistant_ pode ser incorporado a uma aplicação por meio de _web chat_, como foi feito neste trabalho, ou interagindo com a API do Watson Assistant. Optou-se pelo _web chat_ por simplicidade e praticidade.
 
@@ -31,6 +35,8 @@ O _web service_ (WS) usado no trabalho é, na verdade, um _mock_ que finge uma c
 O parâmetro `operacao` determina a operação a ser executada pelo WS — apenas a operação `"consultar_modelo"` foi implementada. Essa ação busca os dados dum modelo de veículo da montadora Ford e retorna sua descrição, suas palavras-chave e seu preço em dólares.
 
 O parâmetro `modelo` é complementar a `operacao` e apenas especifica de qual modelo as informações devem ser consultadas. Os modelos que podem ser informados são todos aqueles que constam nas listas de recomendações de modelos oferecidas pelo _bot_.
+
+O código-fonte do WS pode ser consultado em [`/src/web-service`](../src/web-service/).
 
 ### 2.1 - IBM Cloud Functions
 
