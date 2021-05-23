@@ -3118,7 +3118,7 @@
           {
             "values": [
               {
-                "text": "Feito! Seu test-drive de um $modelo foi agendado para $data_testdrive, às $horario_testdrive.Agradecemos sua preferência por nossos serviços!"
+                "text": "Feito! Seu test-drive de um $modelo foi agendado para $data_testdrive, às $horario_testdrive.\nAgradecemos sua preferência por nossos serviços!"
               }
             ],
             "response_type": "text",
