@@ -28,14 +28,18 @@ O _bot_ disponibiliza três funções\* para auxiliar o cliente:
 
 Sobre o conteúdo deste repositório.
 
-### 2.1 - Código-fonte
+### 2.1 - Análise
+
+No diretório [`analise`](./analise/), você encontrará a análise sobre algumas das conversas realizadas com o _chatbot_. Visite o diretório para mais detalhes.
+
+### 2.2 - Código-fonte
 
 No diretório [`src`](./src/), você encontrará os códigos-fonte deste trabalho, incluindo aqueles do _chatbot_ e do _web service_ consultado por ele. Visite o diretório para mais detalhes.
 
-### 2.2 - Diagramas
+### 2.3 - Diagramas
 
 No diretório [`diagrama`](./diagrama/), você encontrará os diagramas do fluxo de diálogo do _chatbot_. Visite o diretório para mais detalhes.
 
-### 2.3 - Documentação
+### 2.4 - Documentação
 
 No diretório [`docs`](./docs/), você encontrará a documentação relacionada a este trabalho, como os requisitos e a arquitetura. Visite o diretório para mais detalhes.
