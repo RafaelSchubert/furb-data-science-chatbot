@@ -1,0 +1,48 @@
+mensagem;data;horario;intencoes;entidades
+dinheiro;20/05/2021;21:23;;
+carro;20/05/2021;21:23;#recomendar-modelo;
+fusion;20/05/2021;21:24;;@modelo-carro:Ford Fusion Hybrid 2021
+ford;20/05/2021;21:24;;
+aff;20/05/2021;21:24;;
+viado;20/05/2021;21:24;;@finalidade:Viagem
+vc eh viado;20/05/2021;21:24;;@finalidade:Viagem
+Que tal você me recomendar um carro?;22/05/2021;17:21;#recomendar-modelo;@sys-number:1
+Que categorias você tem?;22/05/2021;17:21;;
+Liste por categoria;22/05/2021;17:21;#avaliar-por-categoria;
+Que tal me recomendar um carro?;22/05/2021;17:22;#recomendar-modelo;@sys-number:1
+Liste por categoria.;22/05/2021;17:22;#avaliar-por-categoria;
+Elétrico;22/05/2021;17:22;#capacidade-passageiros-familia-grande;@categoria-carro:Elétrico
+Que tal o mach-e?;22/05/2021;17:22;#avaliar-por-finalidade;
+Mustang mach-e;22/05/2021;17:22;#confirmacao;@modelo-carro:Ford Mustang Mach-E 2021
+Sim;22/05/2021;17:23;#confirmacao;
+Sim;22/05/2021;17:23;#confirmacao;
+Daqui a dois dias, às 14:00.;22/05/2021;17:23;;@sys-date:2021-05-24,@sys-time:14:00:00
+Sim.;22/05/2021;17:23;#confirmacao;
+Quero agendar um test-drive.;22/05/2021;17:24;#agendar-test-drive;@sys-number:1
+Eu estou interessado numa Raptor.;22/05/2021;17:24;#capacidade-passageiros-solteiro;@modelo-carro:Ford F-150 Raptor 2020
+Sim;22/05/2021;17:24;#confirmacao;
+Na quarta-feira.;22/05/2021;17:25;;@sys-date:2021-05-26
+Pode ser às 08:30.;22/05/2021;17:25;#confirmacao;@sys-time:08:30:00
+Sim;22/05/2021;17:25;#confirmacao;
+De carro.;22/05/2021;22:29;#recomendar-modelo;
+Liste as categorias.;22/05/2021;22:29;#avaliar-por-categoria;
+SUV;22/05/2021;22:30;;@categoria-carro:SUV
+Escape Hybrid;22/05/2021;22:30;;@modelo-carro:Ford Escape Hybrid 2021
+Não;22/05/2021;22:30;#declinacao;
+Não;22/05/2021;22:30;#declinacao;
+Recomende um carro para mim.;22/05/2021;22:30;#recomendar-modelo;@sys-number:1
+Quantos passageiros o carro leva.;22/05/2021;22:30;#avaliar-por-capacidade-passageiros;
+5;22/05/2021;22:31;#confirmacao;@sys-number:5
+F-150 Raptor;22/05/2021;22:31;#confirmacao;@modelo-carro:Ford F-150 Raptor 2020,@sys-number:-150
+Sim;22/05/2021;22:31;#confirmacao;
+Sim;22/05/2021;22:31;#confirmacao;
+Pode ser nessa terça-feira.;22/05/2021;22:31;#confirmacao;@sys-date:2021-05-25
+Por volta das 13:00;22/05/2021;22:32;#confirmacao;@sys-time:13:00:00
+Claro! Seria ótimo!;22/05/2021;22:32;#confirmacao;
+Não;22/05/2021;22:32;#declinacao;
+Oi. Quero agendar um test-drive;22/05/2021;22:35;#agendar-test-drive;@sys-number:1
+Fusion;22/05/2021;22:35;;@modelo-carro:Ford Fusion Hybrid 2021
+Sim;22/05/2021;22:36;#confirmacao;
+Sexta-feira;22/05/2021;22:36;;@sys-date:2021-05-28
+Pode ser às 15:00;22/05/2021;22:36;#confirmacao;@sys-time:15:00:00
+Ótimo! Pode ser.;22/05/2021;22:36;#confirmacao;
