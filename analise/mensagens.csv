@@ -46,3 +46,155 @@ Sim;2021-05-22;22:36;#confirmacao;
 Sexta-feira;2021-05-22;22:36;;@sys-date:2021-05-28
 Pode ser às 15:00;2021-05-22;22:36;#confirmacao;@sys-time:15:00:00
 Ótimo! Pode ser.;2021-05-22;22:36;#confirmacao;
+Preciso de um carro;2021-05-23;13:29;#recomendar-modelo;@sys-number:1
+Quantos passageiros cabem;2021-05-23;13:29;#avaliar-por-capacidade-passageiros;
+10;2021-05-23;13:30;;@sys-number:10
+transit connect;2021-05-23;13:30;;@modelo-carro:Ford Transit Connect 2021
+Sim;2021-05-23;13:30;#confirmacao;
+Sim;2021-05-23;13:30;#confirmacao;
+Em uma semana. Lá pelas 17:00.;2021-05-23;13:31;;@sys-date:2021-05-30,@sys-time:17:00:00
+Sim;2021-05-23;13:31;#confirmacao;
+Recomendar modelo;2021-05-23;13:31;#recomendar-modelo;
+O uso que vou dar para o carro.;2021-05-23;13:31;#avaliar-por-finalidade;
+Eu sou um cara que gosta de fazer trilhas.;2021-05-23;13:31;#agendar-test-drive;@sys-number:1,@finalidade:Off-Road
+Bronco;2021-05-23;13:32;;@modelo-carro:Ford Bronco Sport 2021
+Não, obrigado.;2021-05-23;13:32;#declinacao;
+Também não.;2021-05-23;13:32;#declinacao;
+Quero adquirir um carro.;2021-05-23;13:32;#comprar-veiculo;@sys-number:1
+Mustang;2021-05-23;13:33;;@modelo-carro:Ford Mustang Mach 1 2021
+Sim;2021-05-23;13:33;#confirmacao;
+Sim;2021-05-23;13:33;#confirmacao;
+Que tal um sanduíche.;2021-05-23;13:34;;@sys-number:1
+Um x-burguer, por favor.;2021-05-23;13:34;#confirmacao;@sys-number:1
+Deixa pra lá.;2021-05-23;13:34;;
+Estou procurando por um carro para mim.;2021-05-23;13:35;#capacidade-passageiros-casal;@sys-number:1
+Quero que me recomende um carro.;2021-05-23;13:35;#recomendar-modelo;@sys-number:1
+A categoria me interessa.;2021-05-23;13:35;#avaliar-por-categoria;
+Esportivo;2021-05-23;13:35;;@categoria-carro:Esportivo
+O Shelby, com certeza.;2021-05-23;13:35;#confirmacao;@modelo-carro:Ford Mustang Shelby GT500 2021
+Claro! Por que não?;2021-05-23;13:35;#declinacao;
+Não.;2021-05-23;13:36;#declinacao;
+Agendar um test-drive;2021-05-23;13:36;#agendar-test-drive;@sys-number:1
+O Shelby;2021-05-23;13:36;;@modelo-carro:Ford Mustang Shelby GT500 2021
+Sim;2021-05-23;13:36;#confirmacao;
+Amanhã mesmo.;2021-05-23;13:36;#confirmacao;@sys-date:2021-05-24
+Ah! Pode ser às 09:15?;2021-05-23;13:36;#confirmacao;@sys-time:09:15:00
+Sim;2021-05-23;13:36;#confirmacao;
+Sabe, eu queria conhecer os modelos disponíveis.;2021-05-23;13:39;#capacidade-passageiros-solteiro;
+Pode me listar os modelos?;2021-05-23;13:39;#confirmacao;
+Sugerir modelos;2021-05-23;13:40;#confirmacao;
+Pode me apresentar os modelos?;2021-05-23;13:40;#confirmacao;
+Pode recomendar modelos?;2021-05-23;13:40;#recomendar-modelo;
+Quero ver pela finalidade.;2021-05-23;13:41;#avaliar-por-finalidade;
+Viagem;2021-05-23;13:41;;@finalidade:Viagem
+Explorer Hybrid;2021-05-23;13:41;#confirmacao;@modelo-carro:Ford Explorer Hybrid 2021
+Não.;2021-05-23;13:41;#declinacao;
+Não.;2021-05-23;13:41;#declinacao;
+Recomendar modelo;2021-05-23;13:42;#recomendar-modelo;
+Finalidade;2021-05-23;13:42;#avaliar-por-finalidade;
+Viagem;2021-05-23;13:42;;@finalidade:Viagem
+Escape Hybrid;2021-05-23;13:42;;@modelo-carro:Ford Escape Hybrid 2021
+Sim, claro.;2021-05-23;13:42;#confirmacao;
+Exato.;2021-05-23;13:42;#confirmacao;
+Na quinta-feira que vem.;2021-05-23;13:43;;@sys-date:2021-05-27
+De tarde, às 14:00.;2021-05-23;13:43;#capacidade-passageiros-familia;@sys-time:12:00:00,@sys-time:18:00:00,@sys-time:14:00:00
+Sim;2021-05-23;13:43;#confirmacao;
+Me ajuda a encomendar uma pizza?;2021-05-23;13:44;#comprar-veiculo;@sys-number:1
+Quê?;2021-05-23;13:44;;
+Nada não. Foi mal.;2021-05-23;13:44;#declinacao;
+Pretendo comprar um carro de vocês.;2021-05-23;13:44;#comprar-veiculo;@sys-number:1
+O que você me recomenda?;2021-05-23;13:45;;
+Pode me recomendar um?;2021-05-23;13:45;#recomendar-modelo;@sys-number:1
+Vai pela categoria.;2021-05-23;13:45;#avaliar-por-categoria;
+O que vocês têm entre os elétricos?;2021-05-23;13:45;;@categoria-carro:Elétrico
+O que é esse Mustang Mach-e?;2021-05-23;13:46;#avaliar-por-finalidade;@modelo-carro:Ford Mustang Mach-E 2021
+Não.;2021-05-23;13:46;#declinacao;
+Mustang Mach-e;2021-05-23;13:46;#confirmacao;@modelo-carro:Ford Mustang Mach-E 2021
+Sim;2021-05-23;13:46;#confirmacao;
+Não.;2021-05-23;13:46;#declinacao;
+Me recomende um de seus modelos;2021-05-23;13:46;#recomendar-modelo;@sys-number:1
+Categoria;2021-05-23;13:47;#avaliar-por-categoria;
+Elétricos;2021-05-23;13:47;;@categoria-carro:Elétrico
+Mustang Mach-E;2021-05-23;13:47;#confirmacao;@modelo-carro:Ford Mustang Mach-E 2021
+Sim;2021-05-23;13:47;#confirmacao;
+Sim;2021-05-23;13:47;#confirmacao;
+Passo aí hoje, 16:00.;2021-05-23;13:47;#confirmacao;@sys-date:2021-05-23,@sys-time:16:00:00
+Isso mesmo.;2021-05-23;13:47;#confirmacao;
+Não.;2021-05-23;13:48;#declinacao;
+Quero escolher um carro pra minha família.;2021-05-23;13:49;#recomendar-modelo;@sys-number:1
+Eu estava pensando no Ford Fusion. Pode ser?;2021-05-23;13:49;#confirmacao;@modelo-carro:Ford Fusion Hybrid 2021
+Opa. Com certeza!;2021-05-23;13:50;#confirmacao;
+Sim;2021-05-23;13:50;#confirmacao;
+Estava pensando na sexta-feira. Lá pelas 10:20.;2021-05-23;13:50;;@sys-date:2021-05-28,@sys-time:10:20:00
+Certo.;2021-05-23;13:50;#confirmacao;
+Cara, quero marcar um test-drive;2021-05-23;13:51;#agendar-test-drive;@sys-number:1
+Vocês têm a eco esporte?;2021-05-23;13:52;;@modelo-carro:Ford Ecosport 2021,@categoria-carro:Esportivo
+Isso.;2021-05-23;13:52;#confirmacao;
+Na segunda.;2021-05-23;13:52;#confirmacao;@sys-date:2021-05-24
+Ao meio-dia, meio apertado meu horário.;2021-05-23;13:52;#capacidade-passageiros-casal;@sys-time:12:00:00,@sys-number:0.5
+Isso aí.;2021-05-23;13:53;#confirmacao;
+Valeu. Obrigado;2021-05-23;13:53;#confirmacao;
+Procuro por um carro ideal para mim.;2021-05-23;13:53;#avaliar-por-finalidade;@sys-number:1
+Queria que me ajudasse a escolher um carro ideal para mim.;2021-05-23;13:53;#recomendar-modelo;@sys-number:1
+Vou conferir as finalidades.;2021-05-23;13:53;#avaliar-por-finalidade;
+Bom, eu viajo muito. Tenho muito tempo livre.;2021-05-23;13:54;#capacidade-passageiros-solteiro;@finalidade:Viagem
+O que você me diz da transit connect?;2021-05-23;13:54;;@modelo-carro:Ford Transit Connect 2021
+Não, ainda não.;2021-05-23;13:54;#declinacao;
+Também não, obrigado.;2021-05-23;13:54;#declinacao;
+Me ajude a escolher um carro;2021-05-23;13:55;#recomendar-modelo;@sys-number:1
+A finalidade. Pra viagens.;2021-05-23;13:55;#avaliar-por-finalidade;@finalidade:Viagem
+Viagem;2021-05-23;13:55;;@finalidade:Viagem
+Escape Hybrid;2021-05-23;13:55;;@modelo-carro:Ford Escape Hybrid 2021
+Não. Fica para outro dia.;2021-05-23;13:56;#declinacao;
+Não.;2021-05-23;13:56;#declinacao;
+Ow, que vc tem de carro;2021-05-23;13:57;;
+que carros vc tem;2021-05-23;13:57;;
+mostra os carro;2021-05-23;13:57;#recomendar-modelo;
+mostra os carro;2021-05-23;13:57;#recomendar-modelo;
+não sei, pode ser por categoria;2021-05-23;13:58;#declinacao;
+recomendar modelo;2021-05-23;13:58;#recomendar-modelo;
+lista as categorias;2021-05-23;13:59;#avaliar-por-categoria;
+Comercial;2021-05-23;13:59;;@categoria-carro:Comercial
+Super Duty;2021-05-23;13:59;;@modelo-carro:Ford Super Duty 2021
+bacana. pode ser.;2021-05-23;13:59;#confirmacao;
+isso;2021-05-23;13:59;#confirmacao;
+terça, 13 horas.;2021-05-23;14:00;;@sys-date:2021-05-25,@sys-time:13:00:00
+isso;2021-05-23;14:00;#confirmacao;
+Eu queria escolher um carro;2021-05-23;14:07;#recomendar-modelo;@sys-number:1
+É o uso que eu dou a ele;2021-05-23;14:08;#avaliar-por-finalidade;
+Eu vou usar ele no trabalho;2021-05-23;14:08;#avaliar-por-finalidade;@finalidade:Trabalho
+Transit;2021-05-23;14:08;;@modelo-carro:Ford Transit 2021
+Interessante. Sim, claro.;2021-05-23;14:09;#confirmacao;
+sim;2021-05-23;14:09;#confirmacao;
+Estava pensando na quarta, 15:00;2021-05-23;14:10;#declinacao;@sys-date:2021-05-26,@sys-time:15:00:00
+sim;2021-05-23;14:10;#confirmacao;
+Recomenda outro modelo;2021-05-23;14:10;#recomendar-modelo;
+O uso do carro.;2021-05-23;14:10;#avaliar-por-finalidade;
+Pro trabalho;2021-05-23;14:10;;@finalidade:Trabalho
+E essa Super Duty?;2021-05-23;14:10;;@modelo-carro:Ford Super Duty 2021
+Bacana. Pode ser;2021-05-23;14:11;#confirmacao;
+Sim;2021-05-23;14:11;#confirmacao;
+Quinta. 16:00;2021-05-23;14:11;;@sys-date:2021-05-27,@sys-time:16:00:00
+Isso mesmo;2021-05-23;14:11;#confirmacao;
+Vou comprar um carro;2021-05-23;14:11;#comprar-veiculo;@sys-number:1
+Vai o Mustang, pq tenho a grana;2021-05-23;14:12;#capacidade-passageiros-casal;@modelo-carro:Ford Mustang Mach 1 2021
+Isso;2021-05-23;14:12;#confirmacao;
+Pode fechar;2021-05-23;14:12;#confirmacao;
+Nada. Vlw;2021-05-23;14:12;#declinacao;
+Saber o sentido da vida.;2021-05-23;14:13;#capacidade-passageiros-casal;
+Todo mundo sabe que é 42.;2021-05-23;14:13;#declinacao;@sys-number:42
+Oi, quero escolher um modelo;2021-05-23;14:14;#recomendar-modelo;@sys-number:1
+Queria ver pelo número de passageiros;2021-05-23;14:14;#avaliar-por-capacidade-passageiros;
+Eu, o marido e os filhos;2021-05-23;14:15;#capacidade-passageiros-familia;
+O que é essa Raptor?;2021-05-23;14:15;;@modelo-carro:Ford F-150 Raptor 2020
+Ui, muito caro. Não.;2021-05-23;14:15;#declinacao;
+Não, moço.;2021-05-23;14:16;#declinacao;
+Quero escolher um carro;2021-05-23;14:16;#recomendar-modelo;@sys-number:1
+Número de passageiros;2021-05-23;14:16;#avaliar-por-capacidade-passageiros;
+A família;2021-05-23;14:16;#capacidade-passageiros-familia;
+Esse ecosport;2021-05-23;14:16;#confirmacao;@modelo-carro:Ford Ecosport 2021
+Tá mais em conta. Sim, gostaria;2021-05-23;14:16;#confirmacao;
+Sim;2021-05-23;14:17;#confirmacao;
+Eu queria para amanhã. Posso as 11:00. Pode ser?;2021-05-23;14:17;#confirmacao;@sys-date:2021-05-24,@sys-time:11:00:00
+Isso, querido.;2021-05-23;14:17;#confirmacao;
+Muito obrigado!;2021-05-23;14:17;#confirmacao;
