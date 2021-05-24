@@ -11,7 +11,7 @@ O trabalho exige as entregas e requisitos a seguir:
   - Watson Assistant;
 - [x] Deve ser dum domínio fechado:
   - exceto restaurantes/lanchonetes, pois elaboramos um _bot_ para tal em aula;
-- [ ] Deve possuir uma interface de usuário;
+- [x] Deve possuir uma interface de usuário;
 - [x] Deve integrar com algum _web service_:
   - local ou público;
   - real ou _mock_;
@@ -26,6 +26,6 @@ O trabalho exige as entregas e requisitos a seguir:
 
 ## 3 - Análise
 
-- [ ] Fornecer pelo menos **3** indicadores e/ou métricas de desempenho:
+- [x] Fornecer pelo menos **3** indicadores e/ou métricas de desempenho:
   - deve ser feito num _Jupyter Notebook_;
   - devem ser demonstrados graficamente.
